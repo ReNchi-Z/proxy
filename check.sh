@@ -80,7 +80,9 @@ for country in "${countries[@]}"; do
 done
 
 # Menghapus duplikat dan menyimpan proxy yang valid ke file output
+echo "Writing valid proxies to file..."
 sort -u "$temp_file" > "$output_file"
+echo "File written: $output_file"
 rm "$temp_file"
 
 # Kirim notifikasi ke Telegram jika selesai
