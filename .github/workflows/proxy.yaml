@@ -40,3 +40,16 @@ jobs:
         with:
           name: valid-proxies
           path: proxies.txt
+
+      # Kirim notifikasi ke Telegram setelah proses selesai
+      - name: Send Telegram notification
+        run: |
+          # Ambil jumlah valid dan invalid proxies dari log atau output file
+          valid_count=$(grep -c '✅ Valid' proxies.txt || echo 0)
+          invalid_count=$(grep -c '❌ Invalid' proxies.txt || echo 0)
+          
+          message="Proxy check completed.\nValid proxies: $valid_count\nInvalid proxies: $invalid_count"
+          
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d "text=$message"
