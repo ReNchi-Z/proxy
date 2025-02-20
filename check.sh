@@ -5,14 +5,14 @@
 api_check="https://prod-test.jdevcloud.com/check?ip={IP_ADDRESS}&port={PORT}"
 
 # File Output
-output_file="proxies.txt"
-temp_file="temp_proxies.txt"
+valid_file="valid_proxies.txt"
+invalid_file="invalid_proxies.txt"
 valid_count=0
 invalid_count=0
 
 # Clear output file jika ada
-> "$output_file"
-> "$temp_file"
+> "$valid_file"
+> "$invalid_file"
 
 # Fungsi untuk menguji proxy menggunakan API
 test_proxy() {
@@ -29,10 +29,11 @@ test_proxy() {
 
     # Menambahkan proxy valid atau tidak
     if [[ "$success" == "true" && "$is_proxy" == "true" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
-        echo "$ip,$port,$country,$org" >> "$temp_file"
+        echo "$ip,$port,$country,$org" >> "$valid_file"
         valid_count=$((valid_count+1))  # Increment valid_count
         echo "Proxy valid: $ip:$port"
     else
+        echo "$ip,$port,$country,$org" >> "$invalid_file"
         invalid_count=$((invalid_count+1))  # Increment invalid_count
         echo "Proxy invalid: $ip:$port"
     fi
@@ -61,10 +62,6 @@ for country in "${countries[@]}"; do
     # Menunggu sebentar agar tidak membebani server
     sleep 1
 done
-
-# Menghapus duplikat dan menyimpan proxy yang valid ke file output
-sort -u "$temp_file" > "$output_file"
-rm "$temp_file"
 
 # Kirim notifikasi ke Telegram jika selesai
 message="Proxy check completed.\nValid proxies: $valid_count\nInvalid proxies: $invalid_count"
