@@ -8,18 +8,18 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */3 * * *'  # Run every 3 hours
+    - cron: '0 */3 * * *'  # Menjalankan setiap 3 jam
 
 jobs:
   proxy-check:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
+      # Checkout repositori
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Install jq (JSON parsing)
+      # Install jq (untuk parsing JSON)
       - name: Install jq
         run: sudo apt-get install jq
 
@@ -27,15 +27,15 @@ jobs:
       - name: Install curl
         run: sudo apt-get install curl
 
-      # Run the proxy check script
+      # Jalankan script pengecekan proxy
       - name: Run proxy check script
         run: |
           chmod +x ./check.sh
           ./check.sh
 
-      # Upload the valid proxies as an artifact
+      # Upload proxies yang valid sebagai artefak (menggunakan versi v4)
       - name: Upload valid proxies as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: valid-proxies
           path: proxies.txt
