@@ -139,6 +139,7 @@
 64.49.14.41,2053,SG,Latitude-sh
 64.49.14.41,8443,SG,Latitude-sh
 213.35.125.129,6434,SG,Oracle Cloud
+45.76.156.96,2053,SG,Vultr
 194.36.179.17,8443,SG,Neapol Group Ltd
 38.54.16.95,2053,SG,Kaopu Cloud HK
 185.81.29.113,8080,SG,Akile
