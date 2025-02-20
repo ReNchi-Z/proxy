@@ -18,7 +18,9 @@ invalid_count=0
 test_proxy() {
     local ip=$1
     local port=$2
-    # Mengganti placeholder {IP_ADDRESS} dan {PORT} di API dengan IP dan port yang sesuai
+    # Menampilkan proxy yang sedang diuji
+    echo "Checking proxy: $ip:$port"
+
     response=$(curl -s "https://prod-test.jdevcloud.com/check?ip=$ip&port=$port")
 
     # Mengecek apakah response API mengandung success: true dan is_proxy: true
@@ -27,13 +29,16 @@ test_proxy() {
     country=$(echo "$response" | jq -r '.info.country')
     org=$(echo "$response" | jq -r '.info.org')
 
-    # Menambahkan proxy valid atau tidak
+    # Menambahkan proxy yang diuji ke file, tanpa status valid/invalid
     if [[ "$success" == "true" && "$is_proxy" == "true" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
         echo "$ip,$port,$country,$org" >> "$temp_file"
         valid_count=$((valid_count+1))
     else
         invalid_count=$((invalid_count+1))
     fi
+
+    # Menampilkan jumlah valid dan invalid proxies setelah setiap proxy diuji
+    echo "Valid proxies: $valid_count, Invalid proxies: $invalid_count"
 }
 
 # Mengambil daftar kode negara
