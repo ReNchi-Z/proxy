@@ -34,12 +34,14 @@ jobs:
           chmod +x ./check.sh
           ./check.sh
 
-      # Upload proxies yang valid sebagai artefak (menggunakan versi v4)
-      - name: Upload valid proxies as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: valid-proxies
-          path: proxies.txt
+      # Menambahkan dan commit file proxies.txt ke repositori
+      - name: Commit proxies.txt to repository
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add proxies.txt
+          git commit -m "Update proxies.txt with valid proxies"
+          git push origin main
 
       # Kirim notifikasi ke Telegram setelah proses selesai
       - name: Send Telegram notification
