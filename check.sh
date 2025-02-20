@@ -21,11 +21,17 @@ test_proxy() {
     # Mengganti placeholder {IP_ADDRESS} dan {PORT} di API dengan IP dan port yang sesuai
     response=$(curl -s "https://prod-test.jdevcloud.com/check?ip=$ip&port=$port")
 
+    # Debugging response API
+    echo "Response: $response"
+
     # Mengecek apakah response API mengandung success: true dan is_proxy: true
     success=$(echo "$response" | jq -r '.success')
     is_proxy=$(echo "$response" | jq -r '.is_proxy')
     country=$(echo "$response" | jq -r '.info.country')
     org=$(echo "$response" | jq -r '.info.org')
+
+    # Debugging nilai success dan is_proxy
+    echo "Success: $success, Is Proxy: $is_proxy, Country: $country, Org: $org"
 
     # Menambahkan log debug jika proxy valid atau tidak
     if [[ "$success" == "true" && "$is_proxy" == "true" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
@@ -58,8 +64,13 @@ for country in "${countries[@]}"; do
         # Mendapatkan proxies dari data yang diterima
         proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+')
         
+        # Debugging proxies yang ditemukan
+        echo "Proxies found: $proxies"
+        
         # Menguji setiap proxy yang ditemukan
         while IFS=':' read -r ip port; do
+            # Debugging IP dan port
+            echo "Testing Proxy: $ip:$port"
             test_proxy "$ip" "$port"
         done <<< "$proxies"
     fi
