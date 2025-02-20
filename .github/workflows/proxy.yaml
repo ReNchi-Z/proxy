@@ -46,7 +46,6 @@ jobs:
       # Kirim notifikasi ke Telegram setelah proses selesai
       - name: Send Telegram notification
         run: |
-          # Ambil jumlah valid dan invalid proxies dari log atau output file
           valid_count=$(grep -c '✅ Valid' proxies.txt || echo 0)
           invalid_count=$(grep -c '❌ Invalid' proxies.txt || echo 0)
           
