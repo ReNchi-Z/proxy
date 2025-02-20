@@ -66,4 +66,4 @@ rm "$temp_file"
 
 # Kirim notifikasi ke Telegram jika selesai
 message="Proxy check completed. Valid proxies: $valid_count, Invalid proxies: $invalid_count"
-curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" -d "text=$message"
+curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" -d "chat_id=$TELEGRAM_CHAT_ID" -d "text=$message"
