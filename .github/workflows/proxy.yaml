@@ -49,8 +49,11 @@ jobs:
           valid_count=$(wc -l < valid_proxies.txt || echo 0)  # Menghitung jumlah baris di valid_proxies.txt
           invalid_count=$(wc -l < invalid_proxies.txt || echo 0)  # Menghitung jumlah baris di invalid_proxies.txt
           
-          message="Proxy check completed.\nValid proxies: $valid_count\nInvalid proxies: $invalid_count"
+          # Membuat pesan dengan format HTML
+          message="<b>Proxy Check Completed</b> ✅<br><br><b>Valid Proxies:</b> $valid_count ✅<br><b>Invalid Proxies:</b> $invalid_count ❌<br><br>🎉 <b>Proxy Check Successful!</b>"
           
+          # Mengirim pesan ke Telegram dengan parse_mode HTML
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
-            -d "text=$message"
+            -d "text=$message" \
+            -d "parse_mode=HTML"
