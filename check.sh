@@ -21,56 +21,37 @@ test_proxy() {
     # Mengganti placeholder {IP_ADDRESS} dan {PORT} di API dengan IP dan port yang sesuai
     response=$(curl -s "https://prod-test.jdevcloud.com/check?ip=$ip&port=$port")
 
-    # Debugging response API
-    echo "Response: $response"
-
     # Mengecek apakah response API mengandung success: true dan is_proxy: true
     success=$(echo "$response" | jq -r '.success')
     is_proxy=$(echo "$response" | jq -r '.is_proxy')
     country=$(echo "$response" | jq -r '.info.country')
     org=$(echo "$response" | jq -r '.info.org')
 
-    # Debugging nilai success dan is_proxy
-    echo "Success: $success, Is Proxy: $is_proxy, Country: $country, Org: $org"
-
-    # Menambahkan log debug jika proxy valid atau tidak
+    # Menambahkan proxy valid atau tidak
     if [[ "$success" == "true" && "$is_proxy" == "true" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
-        # Menyaring proxy yang valid dan menulisnya ke file sementara
         echo "$ip,$port,$country,$org" >> "$temp_file"
-        echo "✅ Valid: $ip,$port,$country,$org"
         valid_count=$((valid_count+1))
     else
-        echo "❌ Invalid: $ip,$port"
         invalid_count=$((invalid_count+1))
     fi
 }
 
 # Mengambil daftar kode negara
-echo "Fetching country codes..."
 countries=("ID" "SG")
 
 # Mengambil proxies untuk setiap negara
 for country in "${countries[@]}"; do
-    echo "Fetching data for country $country..."
-    
     # Mengambil data proxies dengan timeout
     response=$(curl -s --max-time 30 "https://cfip.ashrvpn.v6.army/?country=$country")
 
     if [ -z "$response" ]; then
-        echo "❌ Error: No data received for country $country"
         continue
     else
-        echo "✅ Data fetched successfully for country $country"
         # Mendapatkan proxies dari data yang diterima
         proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+')
         
-        # Debugging proxies yang ditemukan
-        echo "Proxies found: $proxies"
-        
         # Menguji setiap proxy yang ditemukan
         while IFS=':' read -r ip port; do
-            # Debugging IP dan port
-            echo "Testing Proxy: $ip:$port"
             test_proxy "$ip" "$port"
         done <<< "$proxies"
     fi
@@ -80,9 +61,7 @@ for country in "${countries[@]}"; do
 done
 
 # Menghapus duplikat dan menyimpan proxy yang valid ke file output
-echo "Writing valid proxies to file..."
 sort -u "$temp_file" > "$output_file"
-echo "File written: $output_file"
 rm "$temp_file"
 
 # Kirim notifikasi ke Telegram jika selesai
