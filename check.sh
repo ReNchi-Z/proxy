@@ -65,7 +65,5 @@ sort -u "$temp_file" > "$output_file"
 rm "$temp_file"
 
 # Kirim notifikasi ke Telegram jika selesai
-message="Proxy check completed.\nValid proxies: $valid_count\nInvalid proxies: $invalid_count"
-curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" -d "chat_id=$TELEGRAM_CHAT_ID" -d "text=$message"
-
-echo "Completed! Valid proxies saved to $output_file (duplicates removed). Valid: $valid_count, Invalid: $invalid_count"
+message="Proxy check completed. Valid proxies: $valid_count, Invalid proxies: $invalid_count"
+curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" -d "text=$message"
