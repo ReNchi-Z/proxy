@@ -9,6 +9,7 @@ on:
       - main
   schedule:
     - cron: '0 */3 * * *'  # Menjalankan setiap 3 jam
+  workflow_dispatch:  # Menambahkan kemampuan untuk menjalankan workflow secara manual
 
 jobs:
   proxy-check:
