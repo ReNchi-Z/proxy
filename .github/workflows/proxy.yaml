@@ -1,0 +1,41 @@
+name: Proxy Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '0 */3 * * *'  # Run every 3 hours
+
+jobs:
+  proxy-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Install jq (JSON parsing)
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      # Install curl
+      - name: Install curl
+        run: sudo apt-get install curl
+
+      # Run the proxy check script
+      - name: Run proxy check script
+        run: |
+          chmod +x ./check.sh
+          ./check.sh
+
+      # Upload the valid proxies as an artifact
+      - name: Upload valid proxies as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: valid-proxies
+          path: proxies.txt
