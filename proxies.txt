@@ -28,6 +28,7 @@
 139.162.33.248,587,SG,Akamai Connected Cloud
 139.162.48.174,10000,SG,Akamai Connected Cloud
 139.180.215.77,57878,SG,Vultr
+143.42.66.91,443,SG,M1
 143.42.68.97,17055,SG,Akamai Connected Cloud
 146.190.111.165,443,SG,Digital Ocean
 146.235.18.248,45137,SG,Oracle Cloud
@@ -57,6 +58,7 @@
 168.138.181.188,61731,SG,Oracle Cloud
 168.138.184.142,19191,SG,Oracle Cloud
 172.232.239.147,587,ID,Akamai Connected Cloud
+178.128.80.43,443,SG,Digital Ocean
 178.128.89.45,8443,SG,Digital Ocean
 185.81.28.95,30503,SG,Akile
 185.81.29.113,8080,SG,Akile
@@ -64,6 +66,7 @@
 192.53.113.156,587,SG,Akamai Connected Cloud
 194.127.193.124,24467,SG,Leaseweb Asia
 194.127.193.240,50791,SG,Leaseweb Asia
+194.36.178.36,2053,SG,Neapol Group Ltd
 194.36.179.17,2053,SG,Neapol Group Ltd
 194.36.179.17,8443,SG,Neapol Group Ltd
 194.36.179.5,2053,SG,Neapol Group Ltd
@@ -93,6 +96,7 @@
 45.76.156.96,2053,SG,Vultr
 45.76.183.217,49292,SG,Vultr
 5.223.49.4,2053,SG,Hetzner Online
+5.34.176.119,81,SG,Green Floid
 64.49.14.41,2053,SG,Latitude-sh
 64.49.14.41,8443,SG,Latitude-sh
 68.183.179.5,2053,SG,Digital Ocean
@@ -101,4 +105,6 @@
 83.142.30.5,2096,SG,Streamline Servers
 84.247.49.210,8443,SG,M247 Europe
 84.247.49.211,8443,SG,M247 Europe
+91.192.81.154,2053,SG,Melbikomas UAB
+91.192.81.154,8443,SG,Melbikomas UAB
 97.74.82.87,45837,SG,GoDaddy.com, LLC
