@@ -64,5 +64,5 @@ for country in "${countries[@]}"; do
 done
 
 # Kirim notifikasi ke Telegram jika selesai
-message="<b>Proxy Check Completed ✅</b><br><br><b>Valid Proxies:</b> $valid_count<br><b>Invalid Proxies:</b> $invalid_count<br><br>✅ <b>Proxy Check Successful!</b>"
+message="<b>Proxy Check Completed </b><br><br><b>Valid Proxies:</b> $valid_count<br><b>Invalid Proxies:</b> $invalid_count<br><br>✅ <b>Proxy Check Successful!</b>"
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" -d "chat_id=$TELEGRAM_CHAT_ID" -d "text=$message"
