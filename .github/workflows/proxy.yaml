@@ -50,9 +50,9 @@ jobs:
           invalid_count=$(wc -l < invalid_proxies.txt || echo 0)
 
           # Escape karakter khusus MarkdownV2
-          message="✅ *Proxy Check Completed*\n\n✅ *Valid Proxies:* \`${valid_count}\`\n❌ *Invalid Proxies:* \`${invalid_count}\`\n\n🎉 _Proxy Check Successful\\!_"
+          message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* \`${valid_count}\`\n❌ *Invalid Proxies:* \`${invalid_count}\`\n\n🎉 _Proxy Check Successful\\!_"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
-            -d "text=$message" \
+            -d "text=${message}" \
             -d "parse_mode=MarkdownV2"
