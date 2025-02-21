@@ -9,24 +9,20 @@ on:
       - main
   schedule:
     - cron: '0 */3 * * *'  # Menjalankan setiap 3 jam
-  workflow_dispatch:  # Menambahkan kemampuan untuk menjalankan workflow secara manual
+  workflow_dispatch:  # Memungkinkan menjalankan workflow secara manual
 
 jobs:
   proxy-check:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repositori
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Install jq (untuk parsing JSON)
-      - name: Install jq
-        run: sudo apt-get install jq
-
-      # Install curl
-      - name: Install curl
-        run: sudo apt-get install curl
+      # Install dependencies (jq & curl)
+      - name: Install dependencies
+        run: sudo apt-get install -y jq curl
 
       # Jalankan script pengecekan proxy
       - name: Run proxy check script
@@ -34,26 +30,24 @@ jobs:
           chmod +x ./check.sh
           ./check.sh
 
-      # Menambahkan dan commit file valid_proxies.txt ke repositori
+      # Commit valid_proxies.txt ke repository
       - name: Commit valid_proxies.txt to repository
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add valid_proxies.txt
-          git commit -m "Update valid_proxies.txt with valid proxies"
-          git push origin main
+          git add valid_proxies.txt invalid_proxies.txt
+          git commit -m "Update proxy lists"
+          git push origin main || echo "No changes to commit"
 
-      # Kirim notifikasi ke Telegram setelah proses selesai
+      # Kirim notifikasi ke Telegram dengan MarkdownV2
       - name: Send Telegram notification
         run: |
-          valid_count=$(wc -l < valid_proxies.txt || echo 0)  # Menghitung jumlah baris di valid_proxies.txt
-          invalid_count=$(wc -l < invalid_proxies.txt || echo 0)  # Menghitung jumlah baris di invalid_proxies.txt
-          
-          # Membuat pesan dengan format HTML
-          message="<b>Proxy Check Completed</b> ✅<br><br><b>Valid Proxies:</b> $valid_count ✅<br><b>Invalid Proxies:</b> $invalid_count ❌<br><br>🎉 <b>Proxy Check Successful!</b>"
-          
-          # Mengirim pesan ke Telegram dengan parse_mode HTML
+          valid_count=$(wc -l < valid_proxies.txt || echo 0)  
+          invalid_count=$(wc -l < invalid_proxies.txt || echo 0)
+
+          message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* \`${valid_count}\`\n❌ *Invalid Proxies:* \`${invalid_count}\`\n\n🎉 _Proxy Check Successful!_"
+
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
             -d "text=$message" \
-            -d "parse_mode=HTML"
+            -d "parse_mode=MarkdownV2"
