@@ -1,3 +1,5 @@
+172.232.239.147,587,ID,Akamai Connected Cloud
+35.219.50.99,443,ID,Google Cloud
 206.206.76.208,2053,SG,Regxa Cloud
 138.2.95.33,17465,SG,Oracle Cloud
 152.69.221.114,23302,SG,Oracle Cloud
