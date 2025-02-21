@@ -27,7 +27,6 @@
 194.36.178.36,2053,SG,Neapol Group Ltd
 206.206.76.208,8443,SG,Regxa Cloud
 158.178.243.152,61731,SG,Oracle Cloud
-83.142.30.5,2096,SG,Streamline Servers
 194.36.179.17,8443,SG,Neapol Group Ltd
 152.69.221.114,23302,SG,Oracle Cloud
 43.156.26.205,23654,SG,Tencent cloud computing
@@ -37,7 +36,6 @@
 188.166.199.61,443,SG,Digital Ocean
 84.247.49.210,8443,SG,M247 Europe
 101.32.247.126,725,SG,Tencent cloud computing
-83.142.30.4,2096,SG,Streamline Servers
 138.2.90.127,55555,SG,Oracle Cloud
 62.72.46.14,8443,SG,Contabo Asia Private
 43.134.181.60,38371,SG,Tencent cloud computing
@@ -93,7 +91,6 @@
 163.47.9.27,2053,SG,Digital Ocean
 129.150.50.21,44009,SG,Oracle Cloud
 5.223.49.4,2053,SG,Hetzner Online
-83.142.30.5,2096,SG,Streamline Servers
 68.183.179.5,2053,SG,Digital Ocean
 128.199.218.226,443,SG,Digital Ocean
 152.69.220.136,53076,SG,Oracle Cloud
@@ -125,11 +122,10 @@
 138.2.90.127,55555,SG,Oracle Cloud
 43.128.95.84,38091,SG,Tencent cloud computing
 84.247.49.211,8443,SG,M247 Europe
-143.42.66.91,443,SG,M1
+143.42.66.91,443,SG,Viewqwest
 194.36.179.17,2053,SG,Neapol Group Ltd
 178.128.89.45,8443,SG,Digital Ocean
 158.178.246.142,61731,SG,Oracle Cloud
-27.0.234.74,2911,SG,WebHorizon Internet Services
 154.91.84.10,8443,SG,TERAEXCH
 168.138.165.174,443,SG,Oracle Cloud
 43.156.181.203,443,SG,Tencent cloud computing
@@ -145,6 +141,5 @@
 194.36.179.17,8443,SG,Neapol Group Ltd
 38.54.16.95,2053,SG,Kaopu Cloud HK
 185.81.29.113,8080,SG,Akile
-83.142.30.4,2096,SG,Streamline Servers
 91.192.81.154,8443,SG,Melbikomas UAB
 5.34.176.119,81,SG,Green Floid
