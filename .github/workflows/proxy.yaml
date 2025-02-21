@@ -9,43 +9,48 @@ on:
       - main
   schedule:
     - cron: '0 */3 * * *'  # Menjalankan setiap 3 jam
-  workflow_dispatch:  # Memungkinkan menjalankan workflow secara manual
+  workflow_dispatch:  # Menambahkan kemampuan untuk menjalankan workflow secara manual
 
 jobs:
   proxy-check:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
+      # ✅ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Install dependencies (jq & curl)
-      - name: Install dependencies
-        run: sudo apt-get install -y jq curl
+      # ✅ Install jq (untuk parsing JSON)
+      - name: Install jq
+        run: sudo apt-get install jq -y
 
-      # Jalankan script pengecekan proxy
+      # ✅ Install curl
+      - name: Install curl
+        run: sudo apt-get install curl -y
+
+      # ✅ Jalankan script pengecekan proxy
       - name: Run proxy check script
         run: |
           chmod +x ./check.sh
           ./check.sh
 
-      # Commit valid_proxies.txt ke repository
+      # ✅ Commit valid_proxies.txt ke repositori
       - name: Commit valid_proxies.txt to repository
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add valid_proxies.txt invalid_proxies.txt
-          git commit -m "Update proxy lists"
-          git push origin main || echo "No changes to commit"
+          git commit -m "🔄 Update proxy lists"
+          git push origin main
 
-      # Kirim notifikasi ke Telegram dengan MarkdownV2
+      # ✅ Kirim notifikasi ke Telegram dengan MarkdownV2
       - name: Send Telegram notification
         run: |
           valid_count=$(wc -l < valid_proxies.txt || echo 0)  
           invalid_count=$(wc -l < invalid_proxies.txt || echo 0)
 
-          message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* \`${valid_count}\`\n❌ *Invalid Proxies:* \`${invalid_count}\`\n\n🎉 _Proxy Check Successful!_"
+          # Escape karakter khusus MarkdownV2
+          message="✅ *Proxy Check Completed*\n\n✅ *Valid Proxies:* \`${valid_count}\`\n❌ *Invalid Proxies:* \`${invalid_count}\`\n\n🎉 _Proxy Check Successful\\!_"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
