@@ -16,43 +16,45 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ Checkout repository
+      # Checkout repositori
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # ✅ Install jq (untuk parsing JSON)
+      # Install jq (untuk parsing JSON)
       - name: Install jq
         run: sudo apt-get install jq -y
 
-      # ✅ Install curl
+      # Install curl
       - name: Install curl
         run: sudo apt-get install curl -y
 
-      # ✅ Jalankan script pengecekan proxy
+      # Jalankan script pengecekan proxy
       - name: Run proxy check script
         run: |
           chmod +x ./check.sh
           ./check.sh
 
-      # ✅ Commit valid_proxies.txt ke repositori
-      - name: Commit valid_proxies.txt to repository
+      # Commit dan push perubahan ke repository
+      - name: Commit and push proxy list
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add valid_proxies.txt invalid_proxies.txt
-          git commit -m "🔄 Update proxy lists"
-          git push origin main
+          git add .
+          git commit -m "Update proxy lists" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
 
-      # ✅ Kirim notifikasi ke Telegram dengan MarkdownV2
+      # Kirim notifikasi ke Telegram setelah proses selesai
       - name: Send Telegram notification
         run: |
-          valid_count=$(wc -l < valid_proxies.txt || echo 0)  
+          valid_count=$(wc -l < valid_proxies.txt || echo 0)
           invalid_count=$(wc -l < invalid_proxies.txt || echo 0)
 
-          # Escape karakter khusus MarkdownV2
-          message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* \`${valid_count}\`\n❌ *Invalid Proxies:* \`${invalid_count}\`\n\n🎉 _Proxy Check Successful\\!_"
+          message="✅ <b>Proxy Check Completed</b>\n\n"
+          message+="✅ <b>Valid Proxies:</b> <code>$valid_count</code>\n"
+          message+="❌ <b>Invalid Proxies:</b> <code>$invalid_count</code>\n\n"
+          message+="🎉 <i>Proxy Check Successful!</i>"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
-            -d "text=${message}" \
-            -d "parse_mode=MarkdownV2"
+            -d "text=$message" \
+            -d "parse_mode=HTML"
