@@ -23,6 +23,7 @@
 83.142.30.5,2096,SG,Streamline Servers
 31.192.238.71,8443,SG,Chelyabinsk-Signal
 168.138.166.213,10500,SG,Oracle Cloud
+45.76.156.96,2053,SG,Vultr
 139.180.215.77,57878,SG,Vultr
 43.156.26.205,23654,SG,Tencent cloud computing
 158.178.243.152,61731,SG,Oracle Cloud
@@ -35,7 +36,6 @@
 84.247.49.210,8443,SG,M247 Europe
 101.32.247.126,725,SG,Tencent cloud computing
 138.2.90.127,55555,SG,Oracle Cloud
-62.72.46.14,8443,SG,Contabo Asia Private
 43.134.181.60,38371,SG,Tencent cloud computing
 160.22.79.174,443,SG,Onidel
 83.142.30.4,2096,SG,Streamline Servers
@@ -58,7 +58,6 @@
 43.134.181.60,38371,SG,Tencent cloud computing
 129.150.36.188,53435,SG,Oracle Cloud
 139.180.215.77,57878,SG,Vultr
-103.180.161.123,587,SG,HONG KONG Megalayer Technology Co.
 38.181.70.7,16240,SG,Eons Data Communications
 168.138.181.188,61731,SG,Oracle Cloud
 138.2.91.98,9711,SG,Oracle Cloud
@@ -72,7 +71,6 @@
 163.47.9.27,8443,SG,Digital Ocean
 128.199.171.100,8443,SG,Digital Ocean
 128.199.171.100,2053,SG,Digital Ocean
-62.72.46.14,8443,SG,Contabo Asia Private
 104.248.145.216,443,SG,Digital Ocean
 167.253.158.63,2053,SG,Leaseweb Asia
 146.235.19.79,28983,SG,Oracle Cloud
@@ -127,6 +125,7 @@
 31.192.238.71,8443,SG,Chelyabinsk-Signal
 64.49.14.41,8443,SG,Latitude-sh
 84.247.49.210,8443,SG,M247 Europe
+45.76.156.96,2053,SG,Vultr
 213.35.125.129,6434,SG,Oracle Cloud
 194.36.179.17,8443,SG,Neapol Group Ltd
 64.49.14.41,2053,SG,Latitude-sh
