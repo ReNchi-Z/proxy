@@ -36,7 +36,6 @@
 84.247.49.210,8443,SG,M247 Europe
 101.32.247.126,725,SG,Tencent cloud computing
 138.2.90.127,55555,SG,Oracle Cloud
-62.72.46.14,8443,SG,Contabo Asia Private
 43.134.181.60,38371,SG,Tencent cloud computing
 160.22.79.174,443,SG,Onidel
 83.142.30.4,2096,SG,Streamline Servers
@@ -73,7 +72,6 @@
 163.47.9.27,8443,SG,Digital Ocean
 128.199.171.100,8443,SG,Digital Ocean
 128.199.171.100,2053,SG,Digital Ocean
-62.72.46.14,8443,SG,Contabo Asia Private
 104.248.145.216,443,SG,Digital Ocean
 167.253.158.63,2053,SG,Leaseweb Asia
 146.235.19.79,28983,SG,Oracle Cloud
