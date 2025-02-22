@@ -58,6 +58,7 @@
 43.134.181.60,38371,SG,Tencent cloud computing
 129.150.36.188,53435,SG,Oracle Cloud
 139.180.215.77,57878,SG,Vultr
+103.180.161.123,587,SG,HONG KONG Megalayer Technology Co.
 38.181.70.7,16240,SG,Eons Data Communications
 168.138.181.188,61731,SG,Oracle Cloud
 138.2.91.98,9711,SG,Oracle Cloud
@@ -114,7 +115,6 @@
 194.36.179.17,2053,SG,Neapol Group Ltd
 206.206.76.208,2053,SG,Regxa Cloud
 178.128.89.45,8443,SG,Digital Ocean
-213.35.100.31,47112,SG,Oracle Cloud
 158.178.246.142,61731,SG,Oracle Cloud
 154.91.84.10,8443,SG,TERAEXCH
 43.156.181.203,443,SG,Tencent cloud computing
