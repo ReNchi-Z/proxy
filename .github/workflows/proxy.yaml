@@ -30,6 +30,9 @@ jobs:
 
       # Jalankan script pengecekan proxy
       - name: Run proxy check script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           chmod +x ./check.sh
           ./check.sh
@@ -77,10 +80,10 @@ jobs:
           message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A%0A"
           message+="*🎉 Proxy Check Selesai\!*"
 
-          # Kirim pesan ke Telegram
+          # Kirim pesan ke Telegram (sembunyikan output curl)
           curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID" \
             -d "text=$message" \
-            -d "parse_mode=MarkdownV2"
+            -d "parse_mode=MarkdownV2" > /dev/null 2>&1
 
           echo "Notifikasi Telegram terkirim (log disembunyikan)."
