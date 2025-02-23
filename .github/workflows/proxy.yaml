@@ -30,9 +30,6 @@ jobs:
 
       # Jalankan script pengecekan proxy
       - name: Run proxy check script
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           chmod +x ./check.sh
           ./check.sh
@@ -50,12 +47,15 @@ jobs:
             git push origin main
           fi
 
-      # Kirim notifikasi ke Telegram setelah proses selesai
-      - name: Send Telegram notification
+      # Kirim notifikasi ke Telegram (log disembunyikan)
+      - name: Send Telegram notification (hidden log)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          echo "::add-mask::$TELEGRAM_BOT_TOKEN"
+          echo "::add-mask::$TELEGRAM_CHAT_ID"
+
           HIDUP_count=$(wc -l < HIDUP.txt || echo 0)
           MATI_count=$(wc -l < MATI.txt || echo 0)
 
@@ -82,3 +82,5 @@ jobs:
             -d "chat_id=$TELEGRAM_CHAT_ID" \
             -d "text=$message" \
             -d "parse_mode=MarkdownV2"
+
+          echo "Notifikasi Telegram terkirim (log disembunyikan)."
