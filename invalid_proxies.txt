@@ -1,7 +1,0 @@
-172.232.239.147,587,ID,Akamai Technologies, Inc.
-158.178.240.232,10258,SG,Oracle Corporation
-134.122.185.75,25507,HK,Ctg Server Limited
-158.178.240.232,23559,SG,Oracle Corporation
-213.35.100.31,47112,SG,Oracle Corporation
-158.178.240.232,10258,SG,Oracle Corporation
-213.35.115.254,23936,SG,Oracle Corporation
