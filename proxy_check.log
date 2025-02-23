@@ -227,58 +227,58 @@ Checking proxy: 138.2.90.127:55555
 Checking proxy: 43.156.6.97:10392
 ✔ Valid: 110, ❌ Invalid: 4
 Checking proxy: 185.81.28.95:30503
-✔ Valid: 111, ❌ Invalid: 4
+✔ Valid: 110, ❌ Invalid: 5
 Checking proxy: 43.128.95.84:38091
-✔ Valid: 112, ❌ Invalid: 4
+✔ Valid: 111, ❌ Invalid: 5
 Checking proxy: 84.247.49.211:8443
-✔ Valid: 113, ❌ Invalid: 4
+✔ Valid: 112, ❌ Invalid: 5
 Checking proxy: 31.192.238.71:2053
-✔ Valid: 114, ❌ Invalid: 4
+✔ Valid: 113, ❌ Invalid: 5
 Checking proxy: 160.22.79.174:443
-✔ Valid: 115, ❌ Invalid: 4
+✔ Valid: 114, ❌ Invalid: 5
 Checking proxy: 194.36.179.17:2053
-✔ Valid: 116, ❌ Invalid: 4
+✔ Valid: 115, ❌ Invalid: 5
 Checking proxy: 206.206.76.208:2053
-✔ Valid: 117, ❌ Invalid: 4
+✔ Valid: 116, ❌ Invalid: 5
 Checking proxy: 178.128.89.45:8443
-✔ Valid: 118, ❌ Invalid: 4
+✔ Valid: 117, ❌ Invalid: 5
 Checking proxy: 213.35.100.31:47112
-✔ Valid: 118, ❌ Invalid: 5
+✔ Valid: 117, ❌ Invalid: 6
 Checking proxy: 158.178.246.142:61731
-✔ Valid: 119, ❌ Invalid: 5
+✔ Valid: 118, ❌ Invalid: 6
 Checking proxy: 154.91.84.10:8443
-✔ Valid: 120, ❌ Invalid: 5
+✔ Valid: 119, ❌ Invalid: 6
 Checking proxy: 43.156.181.203:443
-✔ Valid: 121, ❌ Invalid: 5
+✔ Valid: 120, ❌ Invalid: 6
 Checking proxy: 27.0.234.74:2911
-✔ Valid: 122, ❌ Invalid: 5
+✔ Valid: 121, ❌ Invalid: 6
 Checking proxy: 168.138.165.174:443
-✔ Valid: 123, ❌ Invalid: 5
+✔ Valid: 122, ❌ Invalid: 6
 Checking proxy: 43.156.116.194:443
-✔ Valid: 124, ❌ Invalid: 5
+✔ Valid: 123, ❌ Invalid: 6
 Checking proxy: 194.36.179.5:2053
-✔ Valid: 125, ❌ Invalid: 5
+✔ Valid: 124, ❌ Invalid: 6
 Checking proxy: 31.192.238.71:8443
-✔ Valid: 126, ❌ Invalid: 5
+✔ Valid: 125, ❌ Invalid: 6
 Checking proxy: 158.178.240.232:10258
-✔ Valid: 126, ❌ Invalid: 6
+✔ Valid: 125, ❌ Invalid: 7
 Checking proxy: 64.49.14.41:8443
-✔ Valid: 127, ❌ Invalid: 6
+✔ Valid: 126, ❌ Invalid: 7
 Checking proxy: 84.247.49.210:8443
-✔ Valid: 128, ❌ Invalid: 6
+✔ Valid: 127, ❌ Invalid: 7
 Checking proxy: 45.76.156.96:2053
-✔ Valid: 129, ❌ Invalid: 6
+✔ Valid: 128, ❌ Invalid: 7
 Checking proxy: 213.35.125.129:6434
-✔ Valid: 130, ❌ Invalid: 6
+✔ Valid: 129, ❌ Invalid: 7
 Checking proxy: 194.36.179.17:8443
-✔ Valid: 131, ❌ Invalid: 6
+✔ Valid: 130, ❌ Invalid: 7
 Checking proxy: 64.49.14.41:2053
-✔ Valid: 132, ❌ Invalid: 6
+✔ Valid: 131, ❌ Invalid: 7
 Checking proxy: 213.35.115.254:23936
-✔ Valid: 132, ❌ Invalid: 7
+✔ Valid: 131, ❌ Invalid: 8
 Checking proxy: 185.81.29.113:8080
-✔ Valid: 133, ❌ Invalid: 7
+✔ Valid: 132, ❌ Invalid: 8
 Checking proxy: 38.54.16.95:2053
-✔ Valid: 134, ❌ Invalid: 7
+✔ Valid: 133, ❌ Invalid: 8
 Checking proxy: 83.142.30.4:2096
-✔ Valid: 135, ❌ Invalid: 7
+✔ Valid: 134, ❌ Invalid: 8
