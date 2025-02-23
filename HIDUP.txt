@@ -24,19 +24,19 @@
 168.138.166.213,10500,SG,Oracle Corporation
 45.76.156.96,2053,SG,The Constant Company, LLC
 139.180.215.77,57878,SG,The Constant Company, LLC
-43.156.26.205,23654,SG,Shenzhen Tencent Computer Systems Company Limited
+43.156.26.205,23654,SG,Tencent
 158.178.243.152,61731,SG,Oracle Corporation
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
-43.156.97.73,57145,SG,Shenzhen Tencent Computer Systems Company Limited
+43.156.97.73,57145,SG,Tencent
 146.235.18.248,45137,SG,Oracle Corporation
 152.69.220.136,53076,SG,Oracle Corporation
 129.150.36.188,53435,SG,Oracle Corporation
 188.166.199.61,443,SG,Digitalocean, LLC
 84.247.49.210,8443,SG,M Europe SRL
-101.32.247.126,725,SG,Shenzhen Tencent Computer Systems Company Limited
+101.32.247.126,725,SG,Tencent
 138.2.90.127,55555,SG,Oracle Corporation
 62.72.46.14,8443,SG,Contabo Asia Private Limited
-43.134.181.60,38371,SG,Shenzhen Tencent Computer Systems Company Limited
+43.134.181.60,38371,SG,Tencent
 160.22.79.174,443,SG,Onidel Pty LTD
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 138.2.77.179,30018,SG,Oracle Corporation
@@ -55,7 +55,7 @@
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
 45.32.100.46,13802,SG,The Constant Company, LLC
 158.178.243.152,61731,SG,Oracle Corporation
-43.134.181.60,38371,SG,Shenzhen Tencent Computer Systems Company Limited
+43.134.181.60,38371,SG,Tencent
 129.150.36.188,53435,SG,Oracle Corporation
 139.180.215.77,57878,SG,The Constant Company, LLC
 103.180.161.123,587,SG,BGPNET PTE. LTD.
@@ -76,12 +76,12 @@
 104.248.145.216,443,SG,Digitalocean, LLC
 167.253.158.63,2053,SG,LEASEWEB SINGAPORE PTE. LTD.
 146.235.19.79,28983,SG,Oracle Corporation
-43.156.26.205,23654,SG,Shenzhen Tencent Computer Systems Company Limited
+43.156.26.205,23654,SG,Tencent
 45.129.228.31,8443,SG,Catixs LTD
 97.74.82.87,45837,SG,Godaddy.com, LLC
 129.150.50.21,44009,SG,Oracle Corporation
 163.47.9.27,2053,SG,Digitalocean, LLC
-43.156.97.73,57145,SG,Shenzhen Tencent Computer Systems Company Limited
+43.156.97.73,57145,SG,Tencent
 138.2.101.213,15204,SG,Oracle Corporation
 5.223.49.4,2053,SG,Hetzner Online GmbH
 68.183.179.5,2053,SG,Digitalocean, LLC
@@ -90,9 +90,9 @@
 158.178.236.14,61731,SG,Oracle Corporation
 138.2.100.221,26621,SG,Oracle Corporation
 128.199.218.226,443,SG,Digitalocean, LLC
-101.32.247.126,725,SG,Shenzhen Tencent Computer Systems Company Limited
+101.32.247.126,725,SG,Tencent
 138.2.85.23,8080,SG,Oracle Corporation
 129.150.41.174,16462,SG,Oracle Corporation
 138.2.69.236,23334,SG,Oracle Corporation
 152.69.221.114,23302,SG,Oracle Corporation
-150.109.94.144,8900,SG,Shenzhen Tencent Computer Systems Company Limited
+150.109.94.144,8900,SG,Tencent
