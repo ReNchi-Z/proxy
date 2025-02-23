@@ -129,7 +129,11 @@ for country in "${countries[@]}"; do
     response=$(curl -s --max-time 30 "https://cfip.ashrvpn.v6.army/?country=$country")
 
     if [[ -n "$response" ]]; then
-        proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' | head -n 100)  # Batasi 100 proxy
+        # Ambil semua proxy tanpa batasan
+        proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+')
+
+        # Jika ingin membatasi jumlah proxy, gunakan `head -n <jumlah>`
+        # proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' | head -n 200)
 
         while IFS=':' read -r ip port; do
             test_proxy "$ip" "$port"
@@ -168,4 +172,4 @@ curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "text=$message" \
     -d "parse_mode=MarkdownV2" > /dev/null 2>&1
 
-log_success "✅ Notifikasi Telegram terkirim (log disembunyikan)."
+log_success "✅ Notifikasi Telegram terkirim ."
