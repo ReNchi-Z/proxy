@@ -16,6 +16,7 @@ HIDUP_id_count=0
 HIDUP_sg_count=0
 MATI_id_count=0
 MATI_sg_count=0
+MATI_other_count=0  # Untuk menghitung proxy mati dengan kode negara selain ID/SG
 
 # Bersihkan file sebelumnya
 > "$HIDUP_file"
@@ -65,6 +66,11 @@ test_proxy() {
         country_code="UNKNOWN"
     fi
 
+    # Perpendek nama ISP jika terlalu panjang
+    if [[ "$org" == "Shenzhen Tencent Computer Systems Company Limited" ]]; then
+        org="Tencent"
+    fi
+
     if [[ "$proxy_status" == "✅ ACTIVE ✅" && ( "$country_code" == "ID" || "$country_code" == "SG" ) ]]; then
         # Proxy HIDUP
         echo "$ip,$port,$country_code,$org" >> "$HIDUP_file"
@@ -88,6 +94,10 @@ test_proxy() {
             MATI_id_count=$((MATI_id_count+1))
         elif [[ "$country_code" == "SG" ]]; then
             MATI_sg_count=$((MATI_sg_count+1))
+        else
+            # Proxy MATI dengan kode negara tidak valid
+            MATI_other_count=$((MATI_other_count+1))
+            log_warning "⚠️ MATI: $ip:$port ($country_code, $org) - Kode negara tidak valid"
         fi
 
         log_error "❌ MATI: $ip:$port ($country_code, $org)"
@@ -130,7 +140,8 @@ message+="  \\- *Indonesia 🇮🇩:* \`$HIDUP_id_count\`%0A"
 message+="  \\- *Singapura 🇸🇬:* \`$HIDUP_sg_count\`%0A"
 message+="*❌ MATI:* \`$MATI_count\`%0A"
 message+="  \\- *Indonesia 🇲🇨:* \`$MATI_id_count\`%0A"
-message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A%0A"
+message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A"
+message+="  \\- *Lainnya:* \`$MATI_other_count\`%0A%0A"
 message+="*🎉 Proxy Check Selesai\!*"
 
 # Escape karakter khusus
