@@ -65,7 +65,7 @@ jobs:
           message+="❌ *Invalid Proxies:* \`$invalid_count\`\n"
           message+="  - *Indonesia (ID):* \`$invalid_id_count\`\n"
           message+="  - *Singapura (SG):* \`$invalid_sg_count\`\n\n"
-          message+="🎉 _Proxy Check Successful!_"
+          message+="🎉 \\_Proxy Check Successful\\_\\!"
 
           # Kirim pesan ke Telegram
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
