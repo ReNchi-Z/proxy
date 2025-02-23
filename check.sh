@@ -119,10 +119,11 @@ done
 
 # Kirim notifikasi ke Telegram setelah selesai
 if [[ -z "$TELEGRAM_BOT_TOKEN" || -z "$TELEGRAM_CHAT_ID" ]]; then
-    log_error "Token atau Chat ID Telegram tidak ditemukan. Notifikasi tidak dikirim."
+    log_error "❌ Token atau Chat ID Telegram tidak ditemukan. Notifikasi tidak dikirim."
     exit 1
 fi
 
+# Format pesan dengan MarkdownV2 dan semua teks tebal
 message="*✅ Jumlah Proxy Ditemukan*%0A%0A"
 message+="*✅ HIDUP:* \`$HIDUP_count\`%0A"
 message+="  \\- *Indonesia 🇮🇩:* \`$HIDUP_id_count\`%0A"
@@ -132,14 +133,14 @@ message+="  \\- *Indonesia 🇲🇨:* \`$MATI_id_count\`%0A"
 message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A%0A"
 message+="*🎉 Proxy Check Selesai\!*"
 
+# Escape karakter khusus
 message=$(escape_markdown "$message")
 
+# Kirim pesan ke Telegram (sembunyikan output curl)
 log_info "Mengirim notifikasi ke Telegram..."
-log_info "Pesan: $message"
-
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "chat_id=$TELEGRAM_CHAT_ID" \
     -d "text=$message" \
-    -d "parse_mode=MarkdownV2"
+    -d "parse_mode=MarkdownV2" > /dev/null 2>&1
 
-log_success "Notifikasi Telegram terkirim!"
+log_success "✅ Notifikasi Telegram terkirim (log disembunyikan)."
