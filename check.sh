@@ -70,7 +70,7 @@ for country in "${countries[@]}"; do
 done
 
 # Kirim notifikasi ke Telegram setelah selesai
-message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* $valid_count\n❌ *Invalid Proxies:* $invalid_count\n"
+message="✅ *Proxy Check Completed*\n\n✅ *Valid Proxies:* $valid_count\n❌ *Invalid Proxies:* $invalid_count\n"
 
 if [[ ${#valid_per_country[@]} -gt 0 ]]; then
     message+="\n🌍 *Valid Proxies by Country:*\n"
@@ -81,8 +81,11 @@ fi
 
 message+="\n🎉 _Proxy Check Successful!_"
 
-# Mengirim pesan ke Telegram dengan MarkdownV2
+# Escape karakter khusus MarkdownV2
+escaped_message=$(echo "$message" | sed 's/[&/\#\_\*\+\-\.]/\\&/g')
+
+# Kirim ke Telegram
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "chat_id=$TELEGRAM_CHAT_ID" \
-    -d "text=$(echo -n "$message" | sed 's/[&/\#\_\*\+\-\.]/\\&/g')" \
+    -d "text=$escaped_message" \
     -d "parse_mode=MarkdownV2"
