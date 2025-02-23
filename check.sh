@@ -32,35 +32,35 @@ test_proxy() {
     response=$(curl -s "https://api.vipren.biz.id/?ip=$ip:$port")
     
     # Parsing respons JSON
-    success=$(echo "$response" | jq -r '.proxyip')  # true atau false
-    country=$(echo "$response" | jq -r '.country_code')  # Kode negara (contoh: HK, ID, SG)
-    org=$(echo "$response" | jq -r '.org')  # Nama organisasi
+    proxy_status=$(echo "$response" | jq -r '.proxyStatus')  # ✅ ACTIVE ✅ atau ❌ DEAD ❌
+    country_code=$(echo "$response" | jq -r '.countryCode')  # Kode negara (contoh: HK, ID, SG)
+    org=$(echo "$response" | jq -r '.isp')  # Nama organisasi/ISP
 
-    # Jika country null, set ke "UNKNOWN"
-    if [[ "$country" == "null" || -z "$country" ]]; then
-        country="UNKNOWN"
+    # Jika country_code null, set ke "UNKNOWN"
+    if [[ "$country_code" == "null" || -z "$country_code" ]]; then
+        country_code="UNKNOWN"
     fi
 
-    if [[ "$success" == "false" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
+    if [[ "$proxy_status" == "✅ ACTIVE ✅" && ( "$country_code" == "ID" || "$country_code" == "SG" ) ]]; then
         # Proxy valid
-        echo "$ip,$port,$country,$org" >> "$valid_file"
+        echo "$ip,$port,$country_code,$org" >> "$valid_file"
         valid_count=$((valid_count+1))
 
         # Hitung jumlah proxy valid berdasarkan negara
-        if [[ "$country" == "ID" ]]; then
+        if [[ "$country_code" == "ID" ]]; then
             valid_id_count=$((valid_id_count+1))
-        elif [[ "$country" == "SG" ]]; then
+        elif [[ "$country_code" == "SG" ]]; then
             valid_sg_count=$((valid_sg_count+1))
         fi
     else
         # Proxy invalid
-        echo "$ip,$port,$country,$org" >> "$invalid_file"
+        echo "$ip,$port,$country_code,$org" >> "$invalid_file"
         invalid_count=$((invalid_count+1))
 
         # Hitung jumlah proxy invalid berdasarkan negara
-        if [[ "$country" == "ID" ]]; then
+        if [[ "$country_code" == "ID" ]]; then
             invalid_id_count=$((invalid_id_count+1))
-        elif [[ "$country" == "SG" ]]; then
+        elif [[ "$country_code" == "SG" ]]; then
             invalid_sg_count=$((invalid_sg_count+1))
         fi
     fi
