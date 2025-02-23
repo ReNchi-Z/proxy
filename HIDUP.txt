@@ -1,5 +1,5 @@
 35.219.50.99,443,ID,Google LLC
-206.206.76.208,2053,SG,Regxa Company for Information Technology LTD
+206.206.76.208,2053,SG,Regxa
 138.2.95.33,17465,SG,Oracle Corporation
 152.69.221.114,23302,SG,Oracle Corporation
 139.162.33.248,587,SG,Akamai Technologies, Inc.
@@ -18,7 +18,7 @@
 103.3.63.253,46683,SG,Akamai Technologies, Inc.
 68.183.179.5,2053,SG,Digitalocean, LLC
 138.2.77.179,30018,SG,Oracle Corporation
-206.206.76.208,8443,SG,Regxa Company for Information Technology LTD
+206.206.76.208,8443,SG,Regxa
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
 168.138.166.213,10500,SG,Oracle Corporation
@@ -33,7 +33,6 @@
 129.150.36.188,53435,SG,Oracle Corporation
 188.166.199.61,443,SG,Digitalocean, LLC
 84.247.49.210,8443,SG,M Europe SRL
-101.32.247.126,725,SG,Tencent
 138.2.90.127,55555,SG,Oracle Corporation
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 43.134.181.60,38371,SG,Tencent
@@ -68,7 +67,7 @@
 188.166.199.61,443,SG,Digitalocean, LLC
 129.150.62.1,24016,SG,Oracle Corporation
 139.162.48.174,10000,SG,Akamai Technologies, Inc.
-206.206.76.208,8443,SG,Regxa Company for Information Technology LTD
+206.206.76.208,8443,SG,Regxa
 163.47.9.27,8443,SG,Digitalocean, LLC
 128.199.171.100,8443,SG,Digitalocean, LLC
 128.199.171.100,2053,SG,Digitalocean, LLC
@@ -90,7 +89,6 @@
 158.178.236.14,61731,SG,Oracle Corporation
 138.2.100.221,26621,SG,Oracle Corporation
 128.199.218.226,443,SG,Digitalocean, LLC
-101.32.247.126,725,SG,Tencent
 138.2.85.23,8080,SG,Oracle Corporation
 129.150.41.174,16462,SG,Oracle Corporation
 138.2.69.236,23334,SG,Oracle Corporation
