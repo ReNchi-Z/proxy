@@ -58,13 +58,13 @@ jobs:
           invalid_sg_count=$(grep -c ",SG" invalid_proxies.txt || echo 0)
 
           # Format pesan dengan MarkdownV2 dan escape karakter khusus
-          message="✅ *Proxy Check Completed*\n\n"
-          message+="✔ *Valid Proxies:* \`$valid_count\`\n"
-          message+="  \\- *Indonesia \\(ID\\):* \`$valid_id_count\`\n"
-          message+="  \\- *Singapura \\(SG\\):* \`$valid_sg_count\`\n"
-          message+="❌ *Invalid Proxies:* \`$invalid_count\`\n"
-          message+="  \\- *Indonesia \\(ID\\):* \`$invalid_id_count\`\n"
-          message+="  \\- *Singapura \\(SG\\):* \`$invalid_sg_count\`\n\n"
+          message="✅ *Proxy Check Completed*%0A%0A"
+          message+="✔ *Valid Proxies:* \`$valid_count\`%0A"
+          message+="  \\- *Indonesia \\(ID\\):* \`$valid_id_count\`%0A"
+          message+="  \\- *Singapura \\(SG\\):* \`$valid_sg_count\`%0A"
+          message+="❌ *Invalid Proxies:* \`$invalid_count\`%0A"
+          message+="  \\- *Indonesia \\(ID\\):* \`$invalid_id_count\`%0A"
+          message+="  \\- *Singapura \\(SG\\):* \`$invalid_sg_count\`%0A%0A"
           message+="🎉 \\_Proxy Check Successful\\_\\!"
 
           # Kirim pesan ke Telegram
