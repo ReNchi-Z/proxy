@@ -49,11 +49,13 @@ jobs:
           valid_count=$(wc -l < valid_proxies.txt || echo 0)
           invalid_count=$(wc -l < invalid_proxies.txt || echo 0)
 
+          # Format pesan dengan MarkdownV2 dan escape karakter khusus
           message="✅ *Proxy Check Completed*\n\n"
-          message+="✔ *Valid Proxies:* $valid_count\n"
-          message+="❌ *Invalid Proxies:* $invalid_count\n\n"
+          message+="✔ *Valid Proxies:* \`$valid_count\`\n"
+          message+="❌ *Invalid Proxies:* \`$invalid_count\`\n\n"
           message+="🎉 _Proxy Check Successful!_"
 
+          # Kirim pesan ke Telegram
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
             -d "text=$message" \
