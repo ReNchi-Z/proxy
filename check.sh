@@ -81,8 +81,8 @@ fi
 
 message+="\n🎉 _Proxy Check Successful!_"
 
-# Escape karakter khusus MarkdownV2
-escaped_message=$(echo "$message" | sed 's/[&/\#\_\*\+\-\.]/\\&/g')
+# Escape hanya karakter yang perlu di-escape untuk MarkdownV2
+escaped_message=$(echo "$message" | sed 's/[][()$&`*_\-+!]/\\&/g')
 
 # Kirim ke Telegram
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
