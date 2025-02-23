@@ -2,7 +2,7 @@
 # Script untuk mengambil dan menguji proxy
 
 # URL API untuk cek proxy
-api_check="https://prod-test.jdevcloud.com/check?ip={IP_ADDRESS}&port={PORT}"
+api_check="https://api.vipren.biz.id/?ip={IP_ADDRESS}:{PORT}"
 
 # File output
 valid_file="valid_proxies.txt"
@@ -28,14 +28,20 @@ test_proxy() {
     local port=$2
     echo "Checking proxy: $ip:$port"  # Log proses pengecekan
 
-    response=$(curl -s "https://prod-test.jdevcloud.com/check?ip=$ip&port=$port")
+    # Gunakan API untuk mengecek IP
+    response=$(curl -s "https://api.vipren.biz.id/?ip=$ip:$port")
     
-    success=$(echo "$response" | jq -r '.success')
-    is_proxy=$(echo "$response" | jq -r '.is_proxy')
-    country=$(echo "$response" | jq -r '.info.country')
-    org=$(echo "$response" | jq -r '.info.org')
+    # Parsing respons JSON
+    success=$(echo "$response" | jq -r '.proxyip')  # true atau false
+    country=$(echo "$response" | jq -r '.country_code')  # Kode negara (contoh: HK, ID, SG)
+    org=$(echo "$response" | jq -r '.org')  # Nama organisasi
 
-    if [[ "$success" == "true" && "$is_proxy" == "true" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
+    # Jika country null, set ke "UNKNOWN"
+    if [[ "$country" == "null" || -z "$country" ]]; then
+        country="UNKNOWN"
+    fi
+
+    if [[ "$success" == "false" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
         # Proxy valid
         echo "$ip,$port,$country,$org" >> "$valid_file"
         valid_count=$((valid_count+1))
