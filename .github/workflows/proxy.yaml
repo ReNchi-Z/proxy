@@ -65,7 +65,7 @@ jobs:
           message+="\n🎉 _Proxy Check Successful!_"
 
           # Menangani karakter khusus dalam MarkdownV2
-          escaped_message=$(echo "$message" | sed 's/[](){}_*~`>/\\&/g')
+          escaped_message=$(echo "$message" | sed 's/[&/\#\_\*\+\-\.!\{\}\~\`<>]/\\&/g')
 
           # Kirim pesan ke Telegram tanpa log
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
