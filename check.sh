@@ -48,7 +48,7 @@ test_proxy() {
         fi
     else
         # Proxy invalid
-        echo "$ip,$port,$country" >> "$invalid_file"
+        echo "$ip,$port,$country,$org" >> "$invalid_file"
         invalid_count=$((invalid_count+1))
 
         # Hitung jumlah proxy invalid berdasarkan negara
