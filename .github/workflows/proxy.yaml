@@ -43,7 +43,7 @@ jobs:
           git commit -m "Update proxy lists" || echo "No changes to commit"
           git push origin main || echo "No changes to push"
 
-      # Kirim notifikasi ke Telegram setelah proses selesai (tanpa log)
+      # Kirim notifikasi ke Telegram setelah proses selesai
       - name: Send Telegram notification
         run: |
           valid_count=$(wc -l < valid_proxies.txt || echo 0)
@@ -67,7 +67,7 @@ jobs:
           message+="  \\- *Singapura \\(SG\\):* \`$invalid_sg_count\`%0A%0A"
           message+="🎉 \\_Proxy Check Successful\\_\\!"
 
-          # Kirim pesan ke Telegram (tanpa log)
+          # Kirim pesan ke Telegram
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
             -d "text=$message" \
