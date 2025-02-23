@@ -46,26 +46,26 @@ jobs:
       # Kirim notifikasi ke Telegram setelah proses selesai
       - name: Send Telegram notification
         run: |
-          valid_count=$(wc -l < valid_proxies.txt || echo 0)
-          invalid_count=$(wc -l < invalid_proxies.txt || echo 0)
+          HIDUP_count=$(wc -l < HIDUP.txt || echo 0)
+          MATI_count=$(wc -l < MATI.txt || echo 0)
 
-          # Hitung jumlah proxy valid berdasarkan negara
-          valid_id_count=$(grep -c ",ID," valid_proxies.txt || echo 0)
-          valid_sg_count=$(grep -c ",SG," valid_proxies.txt || echo 0)
+          # Hitung jumlah proxy HIDUP berdasarkan negara
+          HIDUP_id_count=$(grep -c ",ID," HIDUP.txt || echo 0)
+          HIDUP_sg_count=$(grep -c ",SG," HIDUP.txt || echo 0)
 
-          # Hitung jumlah proxy invalid berdasarkan negara
-          invalid_id_count=$(grep -c ",ID" invalid_proxies.txt || echo 0)
-          invalid_sg_count=$(grep -c ",SG" invalid_proxies.txt || echo 0)
+          # Hitung jumlah proxy MATI berdasarkan negara
+          MATI_id_count=$(grep -c ",ID" MATI.txt || echo 0)
+          MATI_sg_count=$(grep -c ",SG" MATI.txt || echo 0)
 
-          # Format pesan dengan MarkdownV2 dan escape karakter khusus
-          message="✅ *Proxy Check Completed*%0A%0A"
-          message+="✔ *Valid Proxies:* \`$valid_count\`%0A"
-          message+="  \\- *Indonesia \\(ID\\):* \`$valid_id_count\`%0A"
-          message+="  \\- *Singapura \\(SG\\):* \`$valid_sg_count\`%0A"
-          message+="❌ *Invalid Proxies:* \`$invalid_count\`%0A"
-          message+="  \\- *Indonesia \\(ID\\):* \`$invalid_id_count\`%0A"
-          message+="  \\- *Singapura \\(SG\\):* \`$invalid_sg_count\`%0A%0A"
-          message+="🎉 \\_Proxy Check Successful\\_\\!"
+          # Format pesan dengan MarkdownV2 dan semua teks tebal
+          message="*✅ Jumlah Proxy Ditemukan*%0A%0A"
+          message+="*✅ HIDUP:* \`$HIDUP_count\`%0A"
+          message+="  \\- *Indonesia 🇮🇩:* \`$HIDUP_id_count\`%0A"
+          message+="  \\- *Singapura 🇸🇬:* \`$HIDUP_sg_count\`%0A"
+          message+="*❌ MATI:* \`$MATI_count\`%0A"
+          message+="  \\- *Indonesia 🇲🇨:* \`$MATI_id_count\`%0A"
+          message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A%0A"
+          message+="*🎉 Proxy Check Selesaii!*"
 
           # Kirim pesan ke Telegram
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
