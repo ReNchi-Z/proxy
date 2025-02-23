@@ -1,212 +1,284 @@
-Checking proxy: 8.215.196.18:587
-✔ Valid: 1, ❌ Invalid: 0
+Checking proxy: 172.232.239.147:587
+✔ Valid: 0, ❌ Invalid: 1
 Checking proxy: 35.219.50.99:443
-✔ Valid: 2, ❌ Invalid: 0
-Checking proxy: 36.95.152.58:12137
-✔ Valid: 3, ❌ Invalid: 0
-Checking proxy: 43.218.77.16:443
-✔ Valid: 4, ❌ Invalid: 0
-Checking proxy: 43.218.77.16:1443
-✔ Valid: 5, ❌ Invalid: 0
-Checking proxy: 103.6.207.108:8080
-✔ Valid: 6, ❌ Invalid: 0
-Checking proxy: 172.232.239.147:587
-✔ Valid: 6, ❌ Invalid: 1
-Checking proxy: 172.232.239.151:587
-✔ Valid: 7, ❌ Invalid: 1
-Checking proxy: 172.232.239.249:587
-✔ Valid: 7, ❌ Invalid: 2
-Checking proxy: 172.232.239.147:587
-✔ Valid: 7, ❌ Invalid: 3
-Checking proxy: 139.180.215.77:57878
-✔ Valid: 8, ❌ Invalid: 3
-Checking proxy: 194.36.179.17:8443
-✔ Valid: 9, ❌ Invalid: 3
-Checking proxy: 68.183.179.5:2053
-✔ Valid: 10, ❌ Invalid: 3
-Checking proxy: 45.76.156.96:2053
-✔ Valid: 11, ❌ Invalid: 3
-Checking proxy: 213.35.107.73:443
-✔ Valid: 12, ❌ Invalid: 3
-Checking proxy: 97.74.82.87:45837
-✔ Valid: 13, ❌ Invalid: 3
-Checking proxy: 206.206.76.208:8443
-✔ Valid: 14, ❌ Invalid: 3
-Checking proxy: 138.2.74.219:28616
-✔ Valid: 15, ❌ Invalid: 3
-Checking proxy: 31.192.238.71:8443
-✔ Valid: 16, ❌ Invalid: 3
-Checking proxy: 84.247.49.211:8443
-✔ Valid: 17, ❌ Invalid: 3
-Checking proxy: 138.2.77.179:30018
-✔ Valid: 18, ❌ Invalid: 3
-Checking proxy: 194.127.193.240:50791
-✔ Valid: 19, ❌ Invalid: 3
-Checking proxy: 194.127.193.124:24467
-✔ Valid: 20, ❌ Invalid: 3
-Checking proxy: 167.253.158.63:8443
-✔ Valid: 21, ❌ Invalid: 3
-Checking proxy: 103.3.63.253:46683
-✔ Valid: 22, ❌ Invalid: 3
+✔ Valid: 1, ❌ Invalid: 1
+Checking proxy: 206.206.76.208:2053
+✔ Valid: 2, ❌ Invalid: 1
 Checking proxy: 138.2.95.33:17465
-✔ Valid: 23, ❌ Invalid: 3
-Checking proxy: 43.156.26.205:23654
-✔ Valid: 24, ❌ Invalid: 3
-Checking proxy: 213.35.125.129:6434
-✔ Valid: 25, ❌ Invalid: 3
-Checking proxy: 152.69.220.136:53076
-✔ Valid: 26, ❌ Invalid: 3
-Checking proxy: 158.178.243.152:61731
-✔ Valid: 27, ❌ Invalid: 3
-Checking proxy: 168.138.166.213:10500
-✔ Valid: 28, ❌ Invalid: 3
-Checking proxy: 206.206.76.208:2053
-✔ Valid: 29, ❌ Invalid: 3
-Checking proxy: 139.162.33.248:587
-✔ Valid: 30, ❌ Invalid: 3
-Checking proxy: 83.142.30.5:2096
-✔ Valid: 31, ❌ Invalid: 3
-Checking proxy: 43.156.97.73:57145
-✔ Valid: 32, ❌ Invalid: 3
-Checking proxy: 146.235.18.248:45137
-✔ Valid: 33, ❌ Invalid: 3
-Checking proxy: 134.122.185.75:25507
-✔ Valid: 33, ❌ Invalid: 4
-Checking proxy: 101.32.247.126:725
-✔ Valid: 34, ❌ Invalid: 4
-Checking proxy: 138.2.90.127:55555
-✔ Valid: 35, ❌ Invalid: 4
-Checking proxy: 62.72.46.14:8443
-✔ Valid: 36, ❌ Invalid: 4
-Checking proxy: 83.142.30.4:2096
-✔ Valid: 37, ❌ Invalid: 4
-Checking proxy: 138.2.77.179:30018
-✔ Valid: 38, ❌ Invalid: 4
-Checking proxy: 146.235.18.248:45137
-✔ Valid: 39, ❌ Invalid: 4
-Checking proxy: 194.127.193.124:24467
-✔ Valid: 40, ❌ Invalid: 4
-Checking proxy: 138.2.95.61:1111
-✔ Valid: 41, ❌ Invalid: 4
-Checking proxy: 158.178.243.152:61731
-✔ Valid: 42, ❌ Invalid: 4
-Checking proxy: 143.42.68.97:17055
-✔ Valid: 43, ❌ Invalid: 4
-Checking proxy: 45.76.183.217:49292
-✔ Valid: 44, ❌ Invalid: 4
-Checking proxy: 43.134.181.60:38371
-✔ Valid: 45, ❌ Invalid: 4
-Checking proxy: 129.150.58.86:57621
-✔ Valid: 46, ❌ Invalid: 4
-Checking proxy: 129.150.36.188:53435
-✔ Valid: 47, ❌ Invalid: 4
-Checking proxy: 104.248.145.216:443
-✔ Valid: 48, ❌ Invalid: 4
-Checking proxy: 138.2.91.98:9711
-✔ Valid: 49, ❌ Invalid: 4
-Checking proxy: 168.138.170.211:53702
-✔ Valid: 50, ❌ Invalid: 4
-Checking proxy: 68.183.179.5:8443
-✔ Valid: 51, ❌ Invalid: 4
-Checking proxy: 128.199.171.100:8443
-✔ Valid: 52, ❌ Invalid: 4
-Checking proxy: 38.181.70.7:16240
-✔ Valid: 53, ❌ Invalid: 4
-Checking proxy: 45.129.228.31:8443
-✔ Valid: 54, ❌ Invalid: 4
-Checking proxy: 167.253.158.63:2053
-✔ Valid: 55, ❌ Invalid: 4
-Checking proxy: 163.47.9.27:8443
-✔ Valid: 56, ❌ Invalid: 4
-Checking proxy: 146.235.19.79:28983
-✔ Valid: 57, ❌ Invalid: 4
-Checking proxy: 138.2.101.213:15204
-✔ Valid: 58, ❌ Invalid: 4
-Checking proxy: 62.72.46.14:8443
-✔ Valid: 59, ❌ Invalid: 4
-Checking proxy: 139.162.48.174:10000
-✔ Valid: 60, ❌ Invalid: 4
-Checking proxy: 206.206.76.208:8443
-✔ Valid: 61, ❌ Invalid: 4
-Checking proxy: 43.156.97.73:57145
-✔ Valid: 62, ❌ Invalid: 4
-Checking proxy: 128.199.171.100:2053
-✔ Valid: 63, ❌ Invalid: 4
-Checking proxy: 158.178.236.14:61731
-✔ Valid: 64, ❌ Invalid: 4
-Checking proxy: 68.183.179.5:2053
-✔ Valid: 65, ❌ Invalid: 4
-Checking proxy: 129.150.50.21:44009
-✔ Valid: 66, ❌ Invalid: 4
-Checking proxy: 97.74.82.87:45837
-✔ Valid: 67, ❌ Invalid: 4
-Checking proxy: 152.69.220.136:53076
-✔ Valid: 68, ❌ Invalid: 4
-Checking proxy: 83.142.30.5:2096
-✔ Valid: 69, ❌ Invalid: 4
-Checking proxy: 163.47.9.27:2053
-✔ Valid: 70, ❌ Invalid: 4
-Checking proxy: 138.2.85.23:8080
-✔ Valid: 71, ❌ Invalid: 4
-Checking proxy: 164.52.2.100:443
-✔ Valid: 72, ❌ Invalid: 4
-Checking proxy: 138.2.69.236:23334
-✔ Valid: 73, ❌ Invalid: 4
-Checking proxy: 128.199.218.226:443
-✔ Valid: 74, ❌ Invalid: 4
+✔ Valid: 3, ❌ Invalid: 1
 Checking proxy: 152.69.221.114:23302
-✔ Valid: 75, ❌ Invalid: 4
-Checking proxy: 150.109.94.144:8900
-✔ Valid: 76, ❌ Invalid: 4
-Checking proxy: 168.138.171.70:23280
-✔ Valid: 77, ❌ Invalid: 4
-Checking proxy: 103.3.63.253:46683
-✔ Valid: 78, ❌ Invalid: 4
-Checking proxy: 138.2.89.64:32962
-✔ Valid: 79, ❌ Invalid: 4
-Checking proxy: 138.2.81.243:45319
-✔ Valid: 80, ❌ Invalid: 4
-Checking proxy: 194.36.179.17:2053
-✔ Valid: 81, ❌ Invalid: 4
-Checking proxy: 138.2.75.219:39341
-✔ Valid: 82, ❌ Invalid: 4
-Checking proxy: 206.206.76.208:2053
-✔ Valid: 83, ❌ Invalid: 4
-Checking proxy: 164.52.2.98:443
-✔ Valid: 84, ❌ Invalid: 4
-Checking proxy: 185.81.28.95:30503
-✔ Valid: 85, ❌ Invalid: 4
-Checking proxy: 43.156.6.97:10392
-✔ Valid: 86, ❌ Invalid: 4
-Checking proxy: 213.35.100.31:47112
-✔ Valid: 86, ❌ Invalid: 5
-Checking proxy: 101.32.247.126:725
-✔ Valid: 87, ❌ Invalid: 5
-Checking proxy: 31.192.238.71:2053
-✔ Valid: 88, ❌ Invalid: 5
-Checking proxy: 178.128.89.45:8443
-✔ Valid: 89, ❌ Invalid: 5
-Checking proxy: 138.2.90.127:55555
-✔ Valid: 90, ❌ Invalid: 5
-Checking proxy: 84.247.49.211:8443
-✔ Valid: 91, ❌ Invalid: 5
-Checking proxy: 158.178.246.142:61731
-✔ Valid: 92, ❌ Invalid: 5
-Checking proxy: 154.91.84.10:8443
-✔ Valid: 93, ❌ Invalid: 5
-Checking proxy: 43.156.181.203:443
-✔ Valid: 94, ❌ Invalid: 5
-Checking proxy: 168.138.165.174:443
-✔ Valid: 95, ❌ Invalid: 5
-Checking proxy: 45.76.156.96:2053
-✔ Valid: 96, ❌ Invalid: 5
+✔ Valid: 4, ❌ Invalid: 1
+Checking proxy: 139.162.33.248:587
+✔ Valid: 5, ❌ Invalid: 1
+Checking proxy: 129.150.58.86:57621
+✔ Valid: 6, ❌ Invalid: 1
+Checking proxy: 167.253.158.63:8443
+✔ Valid: 7, ❌ Invalid: 1
 Checking proxy: 213.35.125.129:6434
-✔ Valid: 97, ❌ Invalid: 5
-Checking proxy: 64.49.14.41:8443
-✔ Valid: 98, ❌ Invalid: 5
-Checking proxy: 43.156.116.194:443
-✔ Valid: 99, ❌ Invalid: 5
-Checking proxy: 38.54.16.95:2053
-✔ Valid: 100, ❌ Invalid: 5
+✔ Valid: 8, ❌ Invalid: 1
+Checking proxy: 158.178.246.142:61731
+✔ Valid: 9, ❌ Invalid: 1
+Checking proxy: 194.127.193.240:50791
+✔ Valid: 10, ❌ Invalid: 1
+Checking proxy: 138.2.74.219:28616
+✔ Valid: 11, ❌ Invalid: 1
+Checking proxy: 213.35.108.135:12596
+✔ Valid: 12, ❌ Invalid: 1
+Checking proxy: 158.178.240.232:10258
+✔ Valid: 12, ❌ Invalid: 2
+Checking proxy: 194.36.179.17:8443
+✔ Valid: 13, ❌ Invalid: 2
+Checking proxy: 97.74.82.87:45837
+✔ Valid: 14, ❌ Invalid: 2
+Checking proxy: 84.247.49.211:8443
+✔ Valid: 15, ❌ Invalid: 2
+Checking proxy: 194.36.179.5:2053
+✔ Valid: 16, ❌ Invalid: 2
+Checking proxy: 213.35.107.73:443
+✔ Valid: 17, ❌ Invalid: 2
+Checking proxy: 103.3.63.253:46683
+✔ Valid: 18, ❌ Invalid: 2
+Checking proxy: 68.183.179.5:2053
+✔ Valid: 19, ❌ Invalid: 2
+Checking proxy: 138.2.77.179:30018
+✔ Valid: 20, ❌ Invalid: 2
+Checking proxy: 206.206.76.208:8443
+✔ Valid: 21, ❌ Invalid: 2
+Checking proxy: 83.142.30.5:2096
+✔ Valid: 22, ❌ Invalid: 2
+Checking proxy: 31.192.238.71:8443
+✔ Valid: 23, ❌ Invalid: 2
+Checking proxy: 168.138.166.213:10500
+✔ Valid: 24, ❌ Invalid: 2
+Checking proxy: 45.76.156.96:2053
+✔ Valid: 25, ❌ Invalid: 2
+Checking proxy: 139.180.215.77:57878
+✔ Valid: 26, ❌ Invalid: 2
+Checking proxy: 43.156.26.205:23654
+✔ Valid: 27, ❌ Invalid: 2
+Checking proxy: 158.178.243.152:61731
+✔ Valid: 28, ❌ Invalid: 2
+Checking proxy: 194.127.193.124:24467
+✔ Valid: 29, ❌ Invalid: 2
+Checking proxy: 43.156.97.73:57145
+✔ Valid: 30, ❌ Invalid: 2
+Checking proxy: 146.235.18.248:45137
+✔ Valid: 31, ❌ Invalid: 2
+Checking proxy: 152.69.220.136:53076
+✔ Valid: 32, ❌ Invalid: 2
+Checking proxy: 129.150.36.188:53435
+✔ Valid: 33, ❌ Invalid: 2
+Checking proxy: 188.166.199.61:443
+✔ Valid: 34, ❌ Invalid: 2
+Checking proxy: 84.247.49.210:8443
+✔ Valid: 35, ❌ Invalid: 2
+Checking proxy: 134.122.185.75:25507
+✔ Valid: 35, ❌ Invalid: 3
+Checking proxy: 101.32.247.126:725
+✔ Valid: 36, ❌ Invalid: 3
+Checking proxy: 138.2.90.127:55555
+✔ Valid: 37, ❌ Invalid: 3
+Checking proxy: 62.72.46.14:8443
+✔ Valid: 38, ❌ Invalid: 3
+Checking proxy: 43.134.181.60:38371
+✔ Valid: 39, ❌ Invalid: 3
+Checking proxy: 160.22.79.174:443
+✔ Valid: 40, ❌ Invalid: 3
 Checking proxy: 83.142.30.4:2096
-✔ Valid: 101, ❌ Invalid: 5
+✔ Valid: 41, ❌ Invalid: 3
+Checking proxy: 138.2.77.179:30018
+✔ Valid: 42, ❌ Invalid: 3
+Checking proxy: 139.162.33.248:587
+✔ Valid: 43, ❌ Invalid: 3
+Checking proxy: 213.35.108.135:12596
+✔ Valid: 44, ❌ Invalid: 3
+Checking proxy: 146.190.111.165:443
+✔ Valid: 45, ❌ Invalid: 3
+Checking proxy: 143.42.68.97:17055
+✔ Valid: 46, ❌ Invalid: 3
+Checking proxy: 146.235.18.248:45137
+✔ Valid: 47, ❌ Invalid: 3
+Checking proxy: 129.150.49.58:18650
+✔ Valid: 48, ❌ Invalid: 3
+Checking proxy: 138.2.74.219:28616
+✔ Valid: 49, ❌ Invalid: 3
+Checking proxy: 138.2.89.238:43254
+✔ Valid: 50, ❌ Invalid: 3
+Checking proxy: 138.2.95.61:1111
+✔ Valid: 51, ❌ Invalid: 3
+Checking proxy: 43.245.198.240:587
+✔ Valid: 52, ❌ Invalid: 3
+Checking proxy: 45.76.183.217:49292
+✔ Valid: 53, ❌ Invalid: 3
+Checking proxy: 129.150.58.86:57621
+✔ Valid: 54, ❌ Invalid: 3
+Checking proxy: 194.127.193.124:24467
+✔ Valid: 55, ❌ Invalid: 3
+Checking proxy: 45.32.100.46:13802
+✔ Valid: 56, ❌ Invalid: 3
+Checking proxy: 158.178.243.152:61731
+✔ Valid: 57, ❌ Invalid: 3
+Checking proxy: 43.134.181.60:38371
+✔ Valid: 58, ❌ Invalid: 3
+Checking proxy: 129.150.36.188:53435
+✔ Valid: 59, ❌ Invalid: 3
+Checking proxy: 139.180.215.77:57878
+✔ Valid: 60, ❌ Invalid: 3
+Checking proxy: 103.180.161.123:587
+✔ Valid: 61, ❌ Invalid: 3
+Checking proxy: 38.181.70.7:16240
+✔ Valid: 62, ❌ Invalid: 3
+Checking proxy: 168.138.181.188:61731
+✔ Valid: 63, ❌ Invalid: 3
+Checking proxy: 138.2.91.98:9711
+✔ Valid: 64, ❌ Invalid: 3
+Checking proxy: 68.183.179.5:8443
+✔ Valid: 65, ❌ Invalid: 3
+Checking proxy: 168.138.170.211:53702
+✔ Valid: 66, ❌ Invalid: 3
+Checking proxy: 192.53.113.156:587
+✔ Valid: 67, ❌ Invalid: 3
+Checking proxy: 188.166.199.61:443
+✔ Valid: 68, ❌ Invalid: 3
+Checking proxy: 129.150.62.1:24016
+✔ Valid: 69, ❌ Invalid: 3
+Checking proxy: 139.162.48.174:10000
+✔ Valid: 70, ❌ Invalid: 3
+Checking proxy: 206.206.76.208:8443
+✔ Valid: 71, ❌ Invalid: 3
+Checking proxy: 163.47.9.27:8443
+✔ Valid: 72, ❌ Invalid: 3
+Checking proxy: 128.199.171.100:8443
+✔ Valid: 73, ❌ Invalid: 3
+Checking proxy: 128.199.171.100:2053
+✔ Valid: 74, ❌ Invalid: 3
+Checking proxy: 62.72.46.14:8443
+✔ Valid: 75, ❌ Invalid: 3
+Checking proxy: 104.248.145.216:443
+✔ Valid: 76, ❌ Invalid: 3
+Checking proxy: 167.253.158.63:2053
+✔ Valid: 77, ❌ Invalid: 3
+Checking proxy: 146.235.19.79:28983
+✔ Valid: 78, ❌ Invalid: 3
+Checking proxy: 43.156.26.205:23654
+✔ Valid: 79, ❌ Invalid: 3
+Checking proxy: 45.129.228.31:8443
+✔ Valid: 80, ❌ Invalid: 3
+Checking proxy: 97.74.82.87:45837
+✔ Valid: 81, ❌ Invalid: 3
+Checking proxy: 129.150.50.21:44009
+✔ Valid: 82, ❌ Invalid: 3
+Checking proxy: 163.47.9.27:2053
+✔ Valid: 83, ❌ Invalid: 3
+Checking proxy: 43.156.97.73:57145
+✔ Valid: 84, ❌ Invalid: 3
+Checking proxy: 138.2.101.213:15204
+✔ Valid: 85, ❌ Invalid: 3
+Checking proxy: 5.223.49.4:2053
+✔ Valid: 86, ❌ Invalid: 3
+Checking proxy: 68.183.179.5:2053
+✔ Valid: 87, ❌ Invalid: 3
+Checking proxy: 152.69.220.136:53076
+✔ Valid: 88, ❌ Invalid: 3
+Checking proxy: 83.142.30.5:2096
+✔ Valid: 89, ❌ Invalid: 3
+Checking proxy: 158.178.236.14:61731
+✔ Valid: 90, ❌ Invalid: 3
+Checking proxy: 138.2.100.221:26621
+✔ Valid: 91, ❌ Invalid: 3
+Checking proxy: 128.199.218.226:443
+✔ Valid: 92, ❌ Invalid: 3
+Checking proxy: 101.32.247.126:725
+✔ Valid: 93, ❌ Invalid: 3
+Checking proxy: 138.2.85.23:8080
+✔ Valid: 94, ❌ Invalid: 3
+Checking proxy: 129.150.41.174:16462
+✔ Valid: 95, ❌ Invalid: 3
+Checking proxy: 138.2.69.236:23334
+✔ Valid: 96, ❌ Invalid: 3
+Checking proxy: 152.69.221.114:23302
+✔ Valid: 97, ❌ Invalid: 3
+Checking proxy: 158.178.240.232:23559
+✔ Valid: 97, ❌ Invalid: 4
+Checking proxy: 150.109.94.144:8900
+✔ Valid: 98, ❌ Invalid: 4
+Checking proxy: 164.52.2.100:443
+✔ Valid: 99, ❌ Invalid: 4
+Checking proxy: 150.109.24.233:6666
+✔ Valid: 100, ❌ Invalid: 4
+Checking proxy: 164.52.2.98:443
+✔ Valid: 101, ❌ Invalid: 4
+Checking proxy: 168.138.184.142:19191
+✔ Valid: 102, ❌ Invalid: 4
+Checking proxy: 103.3.63.253:46683
+✔ Valid: 103, ❌ Invalid: 4
+Checking proxy: 168.138.171.70:23280
+✔ Valid: 104, ❌ Invalid: 4
+Checking proxy: 138.2.75.219:39341
+✔ Valid: 105, ❌ Invalid: 4
+Checking proxy: 138.2.89.64:32962
+✔ Valid: 106, ❌ Invalid: 4
+Checking proxy: 138.2.81.243:45319
+✔ Valid: 107, ❌ Invalid: 4
+Checking proxy: 164.52.2.99:443
+✔ Valid: 108, ❌ Invalid: 4
+Checking proxy: 138.2.90.127:55555
+✔ Valid: 109, ❌ Invalid: 4
+Checking proxy: 43.156.6.97:10392
+✔ Valid: 110, ❌ Invalid: 4
+Checking proxy: 185.81.28.95:30503
+✔ Valid: 111, ❌ Invalid: 4
+Checking proxy: 43.128.95.84:38091
+✔ Valid: 112, ❌ Invalid: 4
+Checking proxy: 84.247.49.211:8443
+✔ Valid: 113, ❌ Invalid: 4
+Checking proxy: 31.192.238.71:2053
+✔ Valid: 114, ❌ Invalid: 4
+Checking proxy: 160.22.79.174:443
+✔ Valid: 115, ❌ Invalid: 4
+Checking proxy: 194.36.179.17:2053
+✔ Valid: 116, ❌ Invalid: 4
+Checking proxy: 206.206.76.208:2053
+✔ Valid: 117, ❌ Invalid: 4
+Checking proxy: 178.128.89.45:8443
+✔ Valid: 118, ❌ Invalid: 4
+Checking proxy: 213.35.100.31:47112
+✔ Valid: 118, ❌ Invalid: 5
+Checking proxy: 158.178.246.142:61731
+✔ Valid: 119, ❌ Invalid: 5
+Checking proxy: 154.91.84.10:8443
+✔ Valid: 120, ❌ Invalid: 5
+Checking proxy: 43.156.181.203:443
+✔ Valid: 121, ❌ Invalid: 5
+Checking proxy: 27.0.234.74:2911
+✔ Valid: 122, ❌ Invalid: 5
+Checking proxy: 168.138.165.174:443
+✔ Valid: 123, ❌ Invalid: 5
+Checking proxy: 43.156.116.194:443
+✔ Valid: 124, ❌ Invalid: 5
+Checking proxy: 194.36.179.5:2053
+✔ Valid: 125, ❌ Invalid: 5
+Checking proxy: 31.192.238.71:8443
+✔ Valid: 126, ❌ Invalid: 5
+Checking proxy: 158.178.240.232:10258
+✔ Valid: 126, ❌ Invalid: 6
+Checking proxy: 64.49.14.41:8443
+✔ Valid: 127, ❌ Invalid: 6
+Checking proxy: 84.247.49.210:8443
+✔ Valid: 128, ❌ Invalid: 6
+Checking proxy: 45.76.156.96:2053
+✔ Valid: 129, ❌ Invalid: 6
+Checking proxy: 213.35.125.129:6434
+✔ Valid: 130, ❌ Invalid: 6
+Checking proxy: 194.36.179.17:8443
+✔ Valid: 131, ❌ Invalid: 6
+Checking proxy: 64.49.14.41:2053
+✔ Valid: 132, ❌ Invalid: 6
+Checking proxy: 213.35.115.254:23936
+✔ Valid: 132, ❌ Invalid: 7
+Checking proxy: 185.81.29.113:8080
+✔ Valid: 133, ❌ Invalid: 7
+Checking proxy: 38.54.16.95:2053
+✔ Valid: 134, ❌ Invalid: 7
+Checking proxy: 83.142.30.4:2096
+✔ Valid: 135, ❌ Invalid: 7
