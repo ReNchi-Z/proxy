@@ -30,6 +30,9 @@ jobs:
 
       # Jalankan script pengecekan proxy
       - name: Run proxy check script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           chmod +x ./check.sh
           ./check.sh
@@ -49,6 +52,9 @@ jobs:
 
       # Kirim notifikasi ke Telegram setelah proses selesai
       - name: Send Telegram notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           HIDUP_count=$(wc -l < HIDUP.txt || echo 0)
           MATI_count=$(wc -l < MATI.txt || echo 0)
@@ -72,7 +78,7 @@ jobs:
           message+="*🎉 Proxy Check Selesai\!*"
 
           # Kirim pesan ke Telegram
-          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
-            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+          curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+            -d "chat_id=$TELEGRAM_CHAT_ID" \
             -d "text=$message" \
             -d "parse_mode=MarkdownV2"
