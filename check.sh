@@ -47,6 +47,22 @@ escape_markdown() {
     echo "$text"
 }
 
+# Fungsi untuk memperpendek nama ISP
+shorten_isp() {
+    local isp="$1"
+    case "$isp" in
+        "Shenzhen Tencent Computer Systems Company Limited")
+            echo "Tencent"
+            ;;
+        "Regxa Company for Information Technology LTD")
+            echo "Regxa"
+            ;;
+        *)
+            echo "$isp"  # Jika tidak ada aturan, kembalikan nama asli
+            ;;
+    esac
+}
+
 # Fungsi untuk menguji proxy
 test_proxy() {
     local ip=$1
@@ -66,10 +82,8 @@ test_proxy() {
         country_code="UNKNOWN"
     fi
 
-    # Perpendek nama ISP jika terlalu panjang
-    if [[ "$org" == "Shenzhen Tencent Computer Systems Company Limited" ]]; then
-        org="Tencent"
-    fi
+    # Perpendek nama ISP
+    org=$(shorten_isp "$org")
 
     if [[ "$proxy_status" == "✅ ACTIVE ✅" && ( "$country_code" == "ID" || "$country_code" == "SG" ) ]]; then
         # Proxy HIDUP
