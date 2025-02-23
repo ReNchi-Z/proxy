@@ -70,10 +70,14 @@ for country in "${countries[@]}"; do
 done
 
 # Kirim notifikasi ke Telegram setelah selesai
-message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* $valid_count\n❌ *Invalid Proxies:* $invalid_count\n\n🌍 *Valid Proxies by Country:*\n"
-for country in "${!valid_per_country[@]}"; do
-    message+="- $country: ${valid_per_country[$country]}\n"
-done
+message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* $valid_count\n❌ *Invalid Proxies:* $invalid_count\n"
+
+if [[ ${#valid_per_country[@]} -gt 0 ]]; then
+    message+="\n🌍 *Valid Proxies by Country:*\n"
+    for country in "${!valid_per_country[@]}"; do
+        message+="- $country: ${valid_per_country[$country]}\n"
+    done
+fi
 
 message+="\n🎉 _Proxy Check Successful!_"
 
