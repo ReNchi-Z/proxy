@@ -67,7 +67,8 @@ jobs:
           # Menangani karakter khusus dalam MarkdownV2
           escaped_message=$(echo "$message" | sed 's/[](){}_*~`>/\\&/g')
 
+          # Kirim pesan ke Telegram tanpa log
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
             -d "text=$escaped_message" \
-            -d "parse_mode=MarkdownV2"
+            -d "parse_mode=MarkdownV2" >/dev/null 2>&1
