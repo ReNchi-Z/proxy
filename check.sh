@@ -75,13 +75,14 @@ message="✅ *Proxy Check Completed*\n\n✔ *Valid Proxies:* $valid_count\n❌ *
 if [[ ${#valid_per_country[@]} -gt 0 ]]; then
     message+="\n🌍 *Valid Proxies by Country:*\n"
     for country in "${!valid_per_country[@]}"; do
-        message+="- $country: ${valid_per_country[$country]}\n"
+        message+="- *$country*: ${valid_per_country[$country]}\n"
     done
 fi
 
 message+="\n🎉 _Proxy Check Successful!_"
 
+# Mengirim pesan ke Telegram dengan MarkdownV2
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "chat_id=$TELEGRAM_CHAT_ID" \
-    -d "text=$message" \
+    -d "text=$(echo -n "$message" | sed 's/[&/\#\_\*\+\-\.]/\\&/g')" \
     -d "parse_mode=MarkdownV2"
