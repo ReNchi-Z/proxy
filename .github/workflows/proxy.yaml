@@ -52,7 +52,17 @@ jobs:
           message="✅ <b>Proxy Check Completed</b>\n\n"
           message+="✅ <b>Valid Proxies:</b> <code>$valid_count</code>\n"
           message+="❌ <b>Invalid Proxies:</b> <code>$invalid_count</code>\n\n"
-          message+="🎉 <i>Proxy Check Successful!</i>"
+          
+          if [ -s valid_proxies.txt ]; then
+            message+="🌍 <b>Valid Proxies by Country:</b>\n"
+            awk -F',' '{count[$3]++} END {for (c in count) print "- <b>" c "</b>: <code>" count[c] "</code>"}' valid_proxies.txt >> country_stats.txt
+            while read -r line; do
+              message+="$line\n"
+            done < country_stats.txt
+            rm country_stats.txt
+          fi
+          
+          message+="\n🎉 <i>Proxy Check Successful!</i>"
 
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
