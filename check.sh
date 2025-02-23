@@ -5,17 +5,17 @@
 api_check="https://api.vipren.biz.id/?ip={IP_ADDRESS}:{PORT}"
 
 # File output
-HIDUP_file="HIDUP.txt"  # Ganti nama file
-MATI_file="MATI.txt"     # Ganti nama file
+HIDUP_file="HIDUP.txt"
+MATI_file="MATI.txt"
 temp_file="temp_proxies.txt"
 
 # Inisialisasi hitungan
-HIDUP_count=0  # Ganti hidup_count dengan HIDUP_count
-MATI_count=0   # Ganti mati_count dengan MATI_count
-HIDUP_id_count=0  # Ganti hidup_id_count dengan HIDUP_id_count
-HIDUP_sg_count=0  # Ganti hidup_sg_count dengan HIDUP_sg_count
-MATI_id_count=0   # Ganti mati_id_count dengan MATI_id_count
-MATI_sg_count=0   # Ganti mati_sg_count dengan MATI_sg_count
+HIDUP_count=0
+MATI_count=0
+HIDUP_id_count=0
+HIDUP_sg_count=0
+MATI_id_count=0
+MATI_sg_count=0
 
 # Bersihkan file sebelumnya
 > "$HIDUP_file"
@@ -39,19 +39,26 @@ log_warning() {
     echo "⚠️ $1"
 }
 
+# Fungsi untuk meng-escape karakter khusus MarkdownV2
+escape_markdown() {
+    local text="$1"
+    text=$(echo "$text" | sed 's/[_\*\[\]()~`>#\+\-=|{}.!]/\\&/g')
+    echo "$text"
+}
+
 # Fungsi untuk menguji proxy
 test_proxy() {
     local ip=$1
     local port=$2
-    log_info "Mengambil proxy dari negara: $country"  # Log proses pengecekan
+    log_info "Mengambil proxy dari negara: $country"
 
     # Gunakan API untuk mengecek IP
     response=$(curl -s "https://api.vipren.biz.id/?ip=$ip:$port")
     
     # Parsing respons JSON
-    proxy_status=$(echo "$response" | jq -r '.proxyStatus')  # ✅ ACTIVE ✅ atau ❌ DEAD ❌
-    country_code=$(echo "$response" | jq -r '.countryCode')  # Kode negara (contoh: HK, ID, SG)
-    org=$(echo "$response" | jq -r '.isp')  # Nama organisasi/ISP
+    proxy_status=$(echo "$response" | jq -r '.proxyStatus')
+    country_code=$(echo "$response" | jq -r '.countryCode')
+    org=$(echo "$response" | jq -r '.isp')
 
     # Jika country_code null, set ke "UNKNOWN"
     if [[ "$country_code" == "null" || -z "$country_code" ]]; then
@@ -98,7 +105,7 @@ for country in "${countries[@]}"; do
     response=$(curl -s --max-time 30 "https://cfip.ashrvpn.v6.army/?country=$country")
 
     if [[ -n "$response" ]]; then
-        proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+')
+        proxies=$(echo "$response" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' | head -n 100)  # Batasi 100 proxy
 
         while IFS=':' read -r ip port; do
             test_proxy "$ip" "$port"
@@ -111,6 +118,11 @@ for country in "${countries[@]}"; do
 done
 
 # Kirim notifikasi ke Telegram setelah selesai
+if [[ -z "$TELEGRAM_BOT_TOKEN" || -z "$TELEGRAM_CHAT_ID" ]]; then
+    log_error "Token atau Chat ID Telegram tidak ditemukan. Notifikasi tidak dikirim."
+    exit 1
+fi
+
 message="*✅ Jumlah Proxy Ditemukan*%0A%0A"
 message+="*✅ HIDUP:* \`$HIDUP_count\`%0A"
 message+="  \\- *Indonesia 🇮🇩:* \`$HIDUP_id_count\`%0A"
@@ -118,7 +130,12 @@ message+="  \\- *Singapura 🇸🇬:* \`$HIDUP_sg_count\`%0A"
 message+="*❌ MATI:* \`$MATI_count\`%0A"
 message+="  \\- *Indonesia 🇲🇨:* \`$MATI_id_count\`%0A"
 message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A%0A"
-message+="*🎉 Proxy Check Selesaii!*"
+message+="*🎉 Proxy Check Selesai\!*"
+
+message=$(escape_markdown "$message")
+
+log_info "Mengirim notifikasi ke Telegram..."
+log_info "Pesan: $message"
 
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "chat_id=$TELEGRAM_CHAT_ID" \
