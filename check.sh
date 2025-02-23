@@ -36,6 +36,7 @@ test_proxy() {
     org=$(echo "$response" | jq -r '.info.org')
 
     if [[ "$success" == "true" && "$is_proxy" == "true" && ( "$country" == "ID" || "$country" == "SG" ) ]]; then
+        # Proxy valid
         echo "$ip,$port,$country,$org" >> "$valid_file"
         valid_count=$((valid_count+1))
 
@@ -46,6 +47,7 @@ test_proxy() {
             valid_sg_count=$((valid_sg_count+1))
         fi
     else
+        # Proxy invalid
         echo "$ip,$port,$country" >> "$invalid_file"
         invalid_count=$((invalid_count+1))
 
@@ -79,14 +81,14 @@ for country in "${countries[@]}"; do
 done
 
 # Kirim notifikasi ke Telegram setelah selesai
-message="✅ *Proxy Check Completed*\n\n"
-message+="✔ *Valid Proxies:* \`$valid_count\`\n"
-message+="  - *Indonesia (ID):* \`$valid_id_count\`\n"
-message+="  - *Singapura (SG):* \`$valid_sg_count\`\n"
-message+="❌ *Invalid Proxies:* \`$invalid_count\`\n"
-message+="  - *Indonesia (ID):* \`$invalid_id_count\`\n"
-message+="  - *Singapura (SG):* \`$invalid_sg_count\`\n\n"
-message+="🎉 _Proxy Check Successful!_"
+message="✅ *Proxy Check Completed*%0A%0A"
+message+="✔ *Valid Proxies:* \`$valid_count\`%0A"
+message+="  \\- *Indonesia \\(ID\\):* \`$valid_id_count\`%0A"
+message+="  \\- *Singapura \\(SG\\):* \`$valid_sg_count\`%0A"
+message+="❌ *Invalid Proxies:* \`$invalid_count\`%0A"
+message+="  \\- *Indonesia \\(ID\\):* \`$invalid_id_count\`%0A"
+message+="  \\- *Singapura \\(SG\\):* \`$invalid_sg_count\`%0A%0A"
+message+="🎉 \\_Proxy Check Successful\\_\\!"
 
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "chat_id=$TELEGRAM_CHAT_ID" \
