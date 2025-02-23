@@ -1,32 +1,49 @@
 #!/bin/bash
-# Script untuk mengambil dan menguji proxy
+# Script untuk mengambil dan menguji proxy (disesuaikan untuk GitHub Actions)
 
 # URL API untuk cek proxy
 api_check="https://api.vipren.biz.id/?ip={IP_ADDRESS}:{PORT}"
 
 # File output
-valid_file="valid_proxies.txt"
-invalid_file="invalid_proxies.txt"
+HIDUP_file="HIDUP.txt"  # Ganti nama file
+MATI_file="MATI.txt"     # Ganti nama file
 temp_file="temp_proxies.txt"
 
 # Inisialisasi hitungan
-valid_count=0
-invalid_count=0
-valid_id_count=0  # Jumlah proxy valid dari Indonesia
-valid_sg_count=0  # Jumlah proxy valid dari Singapura
-invalid_id_count=0  # Jumlah proxy invalid dari Indonesia
-invalid_sg_count=0  # Jumlah proxy invalid dari Singapura
+HIDUP_count=0  # Ganti hidup_count dengan HIDUP_count
+MATI_count=0   # Ganti mati_count dengan MATI_count
+HIDUP_id_count=0  # Ganti hidup_id_count dengan HIDUP_id_count
+HIDUP_sg_count=0  # Ganti hidup_sg_count dengan HIDUP_sg_count
+MATI_id_count=0   # Ganti mati_id_count dengan MATI_id_count
+MATI_sg_count=0   # Ganti mati_sg_count dengan MATI_sg_count
 
 # Bersihkan file sebelumnya
-> "$valid_file"
-> "$invalid_file"
+> "$HIDUP_file"
+> "$MATI_file"
 > "$temp_file"
+
+# Fungsi untuk menampilkan log
+log_success() {
+    echo "✅ $1"
+}
+
+log_error() {
+    echo "❌ $1"
+}
+
+log_info() {
+    echo "🔍 $1"
+}
+
+log_warning() {
+    echo "⚠️ $1"
+}
 
 # Fungsi untuk menguji proxy
 test_proxy() {
     local ip=$1
     local port=$2
-    echo "Checking proxy: $ip:$port"  # Log proses pengecekan
+    log_info "Mengambil proxy dari negara: $country"  # Log proses pengecekan
 
     # Gunakan API untuk mengecek IP
     response=$(curl -s "https://api.vipren.biz.id/?ip=$ip:$port")
@@ -42,37 +59,42 @@ test_proxy() {
     fi
 
     if [[ "$proxy_status" == "✅ ACTIVE ✅" && ( "$country_code" == "ID" || "$country_code" == "SG" ) ]]; then
-        # Proxy valid
-        echo "$ip,$port,$country_code,$org" >> "$valid_file"
-        valid_count=$((valid_count+1))
+        # Proxy HIDUP
+        echo "$ip,$port,$country_code,$org" >> "$HIDUP_file"
+        HIDUP_count=$((HIDUP_count+1))
 
-        # Hitung jumlah proxy valid berdasarkan negara
+        # Hitung jumlah proxy HIDUP berdasarkan negara
         if [[ "$country_code" == "ID" ]]; then
-            valid_id_count=$((valid_id_count+1))
+            HIDUP_id_count=$((HIDUP_id_count+1))
         elif [[ "$country_code" == "SG" ]]; then
-            valid_sg_count=$((valid_sg_count+1))
+            HIDUP_sg_count=$((HIDUP_sg_count+1))
         fi
+
+        log_success "✅ HIDUP: $ip:$port ($country_code, $org)"
     else
-        # Proxy invalid
-        echo "$ip,$port,$country_code,$org" >> "$invalid_file"
-        invalid_count=$((invalid_count+1))
+        # Proxy MATI
+        echo "$ip,$port,$country_code,$org" >> "$MATI_file"
+        MATI_count=$((MATI_count+1))
 
-        # Hitung jumlah proxy invalid berdasarkan negara
+        # Hitung jumlah proxy MATI berdasarkan negara
         if [[ "$country_code" == "ID" ]]; then
-            invalid_id_count=$((invalid_id_count+1))
+            MATI_id_count=$((MATI_id_count+1))
         elif [[ "$country_code" == "SG" ]]; then
-            invalid_sg_count=$((invalid_sg_count+1))
+            MATI_sg_count=$((MATI_sg_count+1))
         fi
+
+        log_error "❌ MATI: $ip:$port ($country_code, $org)"
     fi
 
     # Tampilkan jumlah yang sudah diuji
-    echo "✔ Valid: $valid_count, ❌ Invalid: $invalid_count"
+    echo "✅ HIDUP: $HIDUP_count, ❌ MATI: $MATI_count"
 }
 
 # Mengambil proxy dari API
 countries=("ID" "SG")
 
 for country in "${countries[@]}"; do
+    log_info "Mengambil proxy dari negara: $country"
     response=$(curl -s --max-time 30 "https://cfip.ashrvpn.v6.army/?country=$country")
 
     if [[ -n "$response" ]]; then
@@ -81,22 +103,26 @@ for country in "${countries[@]}"; do
         while IFS=':' read -r ip port; do
             test_proxy "$ip" "$port"
         done <<< "$proxies"
+    else
+        log_warning "Tidak ada proxy yang ditemukan untuk negara: $country"
     fi
 
     sleep 1
 done
 
 # Kirim notifikasi ke Telegram setelah selesai
-message="✅ *Proxy Check Completed*%0A%0A"
-message+="✔ *Valid Proxies:* \`$valid_count\`%0A"
-message+="  \\- *Indonesia \\(ID\\):* \`$valid_id_count\`%0A"
-message+="  \\- *Singapura \\(SG\\):* \`$valid_sg_count\`%0A"
-message+="❌ *Invalid Proxies:* \`$invalid_count\`%0A"
-message+="  \\- *Indonesia \\(ID\\):* \`$invalid_id_count\`%0A"
-message+="  \\- *Singapura \\(SG\\):* \`$invalid_sg_count\`%0A%0A"
-message+="🎉 \\_Proxy Check Successful\\_\\!"
+message="*✅ Jumlah Proxy Ditemukan*%0A%0A"
+message+="*✅ HIDUP:* \`$HIDUP_count\`%0A"
+message+="  \\- *Indonesia 🇮🇩:* \`$HIDUP_id_count\`%0A"
+message+="  \\- *Singapura 🇸🇬:* \`$HIDUP_sg_count\`%0A"
+message+="*❌ MATI:* \`$MATI_count\`%0A"
+message+="  \\- *Indonesia 🇲🇨:* \`$MATI_id_count\`%0A"
+message+="  \\- *Singapura 🇸🇬:* \`$MATI_sg_count\`%0A%0A"
+message+="*🎉 Proxy Check Selesaii!*"
 
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
     -d "chat_id=$TELEGRAM_CHAT_ID" \
     -d "text=$message" \
     -d "parse_mode=MarkdownV2"
+
+log_success "Notifikasi Telegram terkirim!"
