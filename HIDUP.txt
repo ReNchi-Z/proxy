@@ -33,7 +33,6 @@
 146.235.18.248,45137,SG,Oracle Corporation
 101.32.247.126,725,SG,Tencent
 138.2.90.127,55555,SG,Oracle Corporation
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 138.2.77.179,30018,SG,Oracle Corporation
 146.235.18.248,45137,SG,Oracle Corporation
@@ -55,7 +54,6 @@
 163.47.9.27,8443,SG,Digitalocean, LLC
 146.235.19.79,28983,SG,Oracle Corporation
 138.2.101.213,15204,SG,Oracle Corporation
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 139.162.48.174,10000,SG,Akamai Technologies, Inc.
 206.206.76.208,8443,SG,Regxa
 43.156.97.73,57145,SG,Tencent

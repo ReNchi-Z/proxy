@@ -2,6 +2,8 @@
 172.232.239.249,587,ID,Akamai Technologies, Inc.
 172.232.239.147,587,ID,Akamai Technologies, Inc.
 134.122.185.75,25507,HK,Ctg Server Limited
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 38.181.70.7,16240,SG,Eons Data Communications Limited
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 128.199.218.226,443,SG,Digitalocean, LLC
 213.35.100.31,47112,SG,Oracle Corporation
