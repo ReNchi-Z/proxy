@@ -9,6 +9,7 @@
 43.218.77.16,443,ID,Amazon.com, Inc.
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 172.232.239.151,587,ID,Akamai Technologies, Inc.
+5.34.176.119,81,SG,GREEN FLOID LLC
 5.223.49.4,2053,SG,Hetzner Online GmbH
 8.219.59.132,48130,SG,Alibaba us Technology Co., Ltd.
 8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
@@ -43,7 +44,6 @@
 43.156.181.203,443,SG,Tencent
 43.156.26.205,23654,SG,Tencent
 43.156.56.22,7676,SG,Tencent
-43.156.6.97,10392,SG,Tencent
 43.156.116.194,443,SG,Tencent
 43.156.253.94,443,SG,Tencent
 43.156.97.73,57145,SG,Tencent
