@@ -31,6 +31,7 @@
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 43.156.97.73,57145,SG,Tencent
 146.235.18.248,45137,SG,Oracle Corporation
+101.32.247.126,725,SG,Tencent
 138.2.90.127,55555,SG,Oracle Corporation
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
@@ -82,6 +83,7 @@
 164.52.2.98,443,SG,Cds Global Cloud Co., LTD
 185.81.28.95,30503,SG,AKILE LTD
 43.156.6.97,10392,SG,Tencent
+101.32.247.126,725,SG,Tencent
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 178.128.89.45,8443,SG,Digitalocean, LLC
 138.2.90.127,55555,SG,Oracle Corporation
