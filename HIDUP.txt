@@ -30,17 +30,16 @@
 13.250.38.94,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 15.235.199.103,8443,SG,OVH SAS
-15.235.199.103,2053,SG,OVH SAS
 15.235.162.49,443,SG,OVH SAS
 18.141.114.130,52132,SG,Amazon.com, Inc.
 18.141.114.130,50450,SG,Amazon.com, Inc.
-27.0.234.74,2911,SG,Webhorizon Internet Services
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
 38.181.70.7,16240,SG,Eons Data Communications Limited
 43.128.95.84,38091,SG,Tencent
 43.134.181.60,38371,SG,Tencent
+43.156.181.203,443,SG,Tencent
 43.156.26.205,23654,SG,Tencent
 43.156.56.22,7676,SG,Tencent
 43.156.6.97,10392,SG,Tencent
@@ -51,7 +50,6 @@
 45.76.156.96,2053,SG,The Constant Company, LLC
 45.76.183.217,49292,SG,The Constant Company, LLC
 45.129.228.31,8443,SG,Catixs LTD
-46.137.215.228,443,SG,Amazon.com, Inc.
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
 47.236.60.3,443,SG,Alibaba us Technology Co., Ltd.
@@ -86,6 +84,7 @@
 103.195.191.55,443,SG,Dromatics Systems Pte LTD
 104.248.145.216,443,SG,Digitalocean, LLC
 119.81.201.154,9089,SG,Softlayer Technologies Inc.
+124.156.202.172,443,SG,Tencent
 128.199.171.100,8443,SG,Digitalocean, LLC
 128.199.171.100,2053,SG,Digitalocean, LLC
 129.150.50.21,44009,SG,Oracle Corporation
@@ -109,7 +108,6 @@
 138.2.89.238,43254,SG,Oracle Corporation
 138.2.91.98,9711,SG,Oracle Corporation
 139.162.33.248,587,SG,Akamai Technologies, Inc.
-139.162.48.174,10000,SG,Akamai Technologies, Inc.
 139.180.215.77,57878,SG,The Constant Company, LLC
 140.245.34.185,59320,SG,Oracle Corporation
 143.42.68.97,17055,SG,Akamai Technologies, Inc.

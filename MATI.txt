@@ -1,9 +1,11 @@
 172.232.239.249,587,ID,Akamai Technologies, Inc.
 172.232.239.147,587,ID,Akamai Technologies, Inc.
 172.232.239.249,587,ID,Akamai Technologies, Inc.
-43.156.181.203,443,SG,Tencent
+15.235.199.103,2053,SG,OVH SAS
+27.0.234.74,2911,SG,Webhorizon Internet Services
 45.87.103.154,57012,HK,Nearoute Limited
-124.156.202.172,443,SG,Tencent
+46.137.215.228,443,SG,Amazon.com, Inc.
 128.199.218.226,443,SG,Digitalocean, LLC
+139.162.48.174,10000,SG,Akamai Technologies, Inc.
 188.166.199.61,443,SG,Digitalocean, LLC
 128.199.160.156,443,SG,Digitalocean, LLC
