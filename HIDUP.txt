@@ -7,6 +7,7 @@
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 43.218.77.16,1443,ID,Amazon.com, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 5.34.176.119,81,SG,GREEN FLOID LLC
 5.223.49.4,2053,SG,Hetzner Online GmbH
