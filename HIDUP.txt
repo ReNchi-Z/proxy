@@ -5,6 +5,9 @@
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
+43.218.77.16,1443,ID,Amazon.com, Inc.
+172.232.237.112,2053,ID,Akamai Technologies, Inc.
+35.219.15.90,443,ID,Google LLC
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 43.133.149.163,52698,ID,Tencent
 203.194.112.119,2053,ID,Rumahweb
@@ -23,9 +26,6 @@
 8.222.165.104,443,SG,Alibaba us Technology Co., Ltd.
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 8.222.243.73,26385,SG,Alibaba us Technology Co., Ltd.
-13.229.159.215,443,SG,Amazon.com, Inc.
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 15.235.199.103,8443,SG,OVH SAS
 15.235.199.103,2053,SG,OVH SAS
@@ -71,6 +71,7 @@
 138.2.90.127,55555,SG,Oracle Corporation
 138.2.91.98,9711,SG,Oracle Corporation
 139.180.215.77,57878,SG,The Constant Company, LLC
+143.42.66.91,443,SG,Akamai Technologies, Inc.
 143.42.68.97,17055,SG,Akamai Technologies, Inc.
 146.235.19.79,28983,SG,Oracle Corporation
 146.190.111.165,443,SG,Digitalocean, LLC
@@ -96,6 +97,7 @@
 185.81.29.113,8080,SG,AKILE LTD
 185.81.28.95,30503,SG,AKILE LTD
 185.126.80.181,51207,SG,AKILE LTD
+192.53.113.156,587,SG,Akamai Technologies, Inc.
 194.36.179.5,2053,SG,FIRST SERVER LIMITED
 194.36.179.17,2053,SG,FIRST SERVER LIMITED
 194.36.179.17,8443,SG,FIRST SERVER LIMITED
@@ -127,3 +129,5 @@
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
 139.162.33.248,587,SG,Akamai Technologies, Inc.
 128.199.163.133,8443,SG,Digitalocean, LLC
+47.236.25.107,27903,SG,Alibaba us Technology Co., Ltd.
+45.76.183.217,49292,SG,The Constant Company, LLC
