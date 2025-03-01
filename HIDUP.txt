@@ -41,7 +41,6 @@
 45.32.100.46,13802,SG,The Constant Company, LLC
 45.76.183.217,49292,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
-168.138.184.172,443,SG,Oracle Corporation
 8.219.59.208,11178,SG,Alibaba us Technology Co., Ltd.
 43.245.198.240,587,SG,Techavenue International LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
@@ -83,7 +82,6 @@
 129.150.50.21,44009,SG,Oracle Corporation
 129.150.41.174,16462,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
-13.228.155.72,443,SG,Amazon.com, Inc.
 13.250.38.94,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 138.2.100.221,26621,SG,Oracle Corporation
@@ -133,7 +131,6 @@
 43.156.253.94,443,SG,Tencent
 47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,2053,SG,OVH SAS
-5.34.176.119,81,SG,GREEN FLOID LLC
 64.49.14.41,2053,SG,Latitude.sh
 64.49.14.41,8443,SG,Latitude.sh
 8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
