@@ -111,6 +111,7 @@
 164.52.2.99,443,SG,Cds Global Cloud Co., LTD
 167.253.158.63,2053,SG,LEASEWEB SINGAPORE PTE. LTD.
 168.138.171.70,23280,SG,Oracle Corporation
+168.138.165.174,443,SG,Oracle Corporation
 168.138.184.142,19191,SG,Oracle Corporation
 178.128.89.45,8443,SG,Digitalocean, LLC
 18.141.114.130,50450,SG,Amazon.com, Inc.
@@ -125,7 +126,6 @@
 206.206.76.208,2053,SG,Regxa
 3.1.116.161,2053,SG,Amazon.com, Inc.
 3.1.116.161,8443,SG,Amazon.com, Inc.
-27.0.234.74,2911,SG,Webhorizon Internet Services
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
 43.156.116.194,443,SG,Tencent
@@ -146,5 +146,4 @@
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
-13.250.131.37,443,SG,Amazon.com, Inc.
 154.91.84.10,8443,SG,Tcloudnet
