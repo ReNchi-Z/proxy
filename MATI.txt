@@ -1,13 +1,4 @@
-194.127.193.240,50791,SG,LEASEWEB SINGAPORE PTE. LTD.
-47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
-47.236.25.107,27903,SG,Alibaba us Technology Co., Ltd.
-45.129.228.31,8443,SG,Catixs LTD
-8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
-5.223.49.4,2053,SG,Hetzner Online GmbH
-152.69.210.245,2053,SG,Oracle Corporation
-13.250.38.94,443,SG,Amazon.com, Inc.
-164.52.2.99,443,SG,Cds Global Cloud Co., LTD
-178.128.89.45,8443,SG,Digitalocean, LLC
-18.141.114.130,50450,SG,Amazon.com, Inc.
-18.141.114.130,52132,SG,Amazon.com, Inc.
+,,US,Cloudflare, Inc.
+13.229.159.215,443,SG,Amazon.com, Inc.
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
 45.87.103.154,57012,HK,Nearoute Limited
