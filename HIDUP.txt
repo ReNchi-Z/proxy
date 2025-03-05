@@ -37,6 +37,7 @@
 143.42.68.97,17055,SG,Akamai Technologies, Inc.
 213.35.107.73,443,SG,Oracle Corporation
 138.2.77.179,30018,SG,Oracle Corporation
+8.222.129.175,58808,SG,Alibaba us Technology Co., Ltd.
 38.181.70.7,16240,SG,Eons Data Communications Limited
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
@@ -142,5 +143,4 @@
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
-13.250.131.37,443,SG,Amazon.com, Inc.
 154.91.84.10,8443,SG,Tcloudnet
