@@ -1,8 +1,0 @@
-35.219.50.99,443,ID,Google LLC
-167.71.194.185,8443,SG,Digitalocean, LLC
-129.150.49.58,18650,SG,Oracle Corporation
-158.178.246.142,61731,SG,Oracle Corporation
-164.52.2.99,443,SG,Cds Global Cloud Co., LTD
-213.35.125.129,6434,SG,Oracle Corporation
-91.192.81.154,8443,SG,Melbikomas Uab
-45.87.103.154,57012,HK,Nearoute Limited
