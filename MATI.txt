@@ -1,4 +1,7 @@
-,,US,Cloudflare, Inc.
-8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
-15.235.199.103,2053,SG,OVH SAS
+172.232.239.151,587,ID,Akamai Technologies, Inc.
+138.2.75.219,39341,SG,Oracle Corporation
+138.2.89.64,32962,SG,Oracle Corporation
+194.36.179.17,2053,SG,FIRST SERVER LIMITED
+47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
+84.247.49.211,8443,SG,M Europe SRL
 45.87.103.154,57012,HK,Nearoute Limited
