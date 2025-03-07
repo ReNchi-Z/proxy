@@ -1,7 +1,5 @@
-172.232.239.151,587,ID,Akamai Technologies, Inc.
-138.2.75.219,39341,SG,Oracle Corporation
-138.2.89.64,32962,SG,Oracle Corporation
-194.36.179.17,2053,SG,FIRST SERVER LIMITED
-47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
-84.247.49.211,8443,SG,M Europe SRL
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+168.138.184.172,443,SG,Oracle Corporation
+83.142.30.5,2096,SG,Streamline Servers Pty LTD
+83.142.30.4,2096,SG,Streamline Servers Pty LTD
 45.87.103.154,57012,HK,Nearoute Limited
