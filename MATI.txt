@@ -1,5 +1,3 @@
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 168.138.184.172,443,SG,Oracle Corporation
-83.142.30.5,2096,SG,Streamline Servers Pty LTD
-83.142.30.4,2096,SG,Streamline Servers Pty LTD
 45.87.103.154,57012,HK,Nearoute Limited

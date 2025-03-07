@@ -19,7 +19,7 @@
 8.222.243.73,26385,SG,Alibaba us Technology Co., Ltd.
 47.236.246.163,14108,SG,Alibaba us Technology Co., Ltd.
 167.71.194.185,8443,SG,Digitalocean, LLC
-119.81.201.154,9089,SG,Softlayer Technologies Inc.
+119.81.201.154,9089,SG,Ibm Cloud
 138.2.74.219,28616,SG,Oracle Corporation
 129.150.49.58,18650,SG,Oracle Corporation
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
@@ -63,6 +63,7 @@
 163.47.9.27,2053,SG,Digitalocean, LLC
 43.156.97.73,57145,SG,Tencent
 91.192.81.154,2053,SG,Melbikomas Uab
+83.142.30.5,2096,SG,Streamline Servers Pty LTD
 163.47.9.27,8443,SG,Digitalocean, LLC
 138.2.91.98,9711,SG,Oracle Corporation
 129.150.62.1,24016,SG,Oracle Corporation
@@ -139,6 +140,7 @@
 8.222.165.104,443,SG,Alibaba us Technology Co., Ltd.
 84.247.49.210,8443,SG,M Europe SRL
 84.247.49.211,8443,SG,M Europe SRL
+83.142.30.4,2096,SG,Streamline Servers Pty LTD
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 91.192.81.154,8443,SG,Melbikomas Uab
 154.91.84.10,8443,SG,Tcloudnet
