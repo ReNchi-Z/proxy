@@ -123,7 +123,6 @@
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
 43.156.116.194,443,SG,Tencent
-38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
 43.128.95.84,38091,SG,Tencent
 43.156.181.203,443,SG,Tencent
 45.76.156.96,2053,SG,The Constant Company, LLC
