@@ -75,6 +75,7 @@
 138.2.75.219,39341,SG,Oracle Corporation
 138.2.85.23,8080,SG,Oracle Corporation
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
+101.32.247.126,725,SG,Tencent
 103.3.63.253,46683,SG,Akamai Technologies, Inc.
 128.199.171.100,2053,SG,Digitalocean, LLC
 128.199.171.100,8443,SG,Digitalocean, LLC
