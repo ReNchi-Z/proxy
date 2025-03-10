@@ -6,6 +6,7 @@
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 129.150.58.86,57621,SG,Oracle Corporation
 146.235.18.248,45137,SG,Oracle Corporation
+51.79.158.126,443,SG,OVH SAS
 54.169.229.188,443,SG,Amazon.com, Inc.
 138.2.89.238,43254,SG,Oracle Corporation
 213.35.108.135,12596,SG,Oracle Corporation
@@ -60,6 +61,7 @@
 5.223.49.4,2053,SG,Hetzner Online GmbH
 163.47.9.27,2053,SG,Digitalocean, LLC
 43.156.97.73,57145,SG,Tencent
+91.192.81.154,2053,SG,Melbikomas Uab
 163.47.9.27,8443,SG,Digitalocean, LLC
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 138.2.91.98,9711,SG,Oracle Corporation
@@ -135,4 +137,5 @@
 8.222.165.104,443,SG,Alibaba us Technology Co., Ltd.
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
+91.192.81.154,8443,SG,Melbikomas Uab
 154.91.84.10,8443,SG,Tcloudnet
