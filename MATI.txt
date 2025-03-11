@@ -1,4 +1,10 @@
+35.219.50.99,443,ID,Google LLC
+43.218.77.16,1443,ID,Amazon.com, Inc.
+119.81.201.154,9089,SG,Ibm Cloud
+161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
 43.156.97.73,57145,SG,Tencent
-101.32.247.126,725,SG,Tencent
-13.250.131.37,443,SG,Amazon.com, Inc.
+129.150.62.1,24016,SG,Oracle Corporation
+138.2.85.23,8080,SG,Oracle Corporation
+128.199.171.100,2053,SG,Digitalocean, LLC
+83.142.30.4,2096,SG,Streamline Servers Pty LTD
 45.87.103.154,57012,HK,Nearoute Limited
