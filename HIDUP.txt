@@ -1,3 +1,4 @@
+35.219.50.99,443,ID,Google LLC
 43.218.77.16,1443,ID,Amazon.com, Inc.
 203.194.112.119,8443,ID,Rumahweb
 172.232.239.151,587,ID,Akamai Technologies, Inc.
@@ -43,6 +44,7 @@
 45.32.100.46,13802,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 45.76.183.217,49292,SG,The Constant Company, LLC
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
 8.219.59.208,11178,SG,Alibaba us Technology Co., Ltd.
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
@@ -66,6 +68,7 @@
 43.156.26.205,23654,SG,Tencent
 68.183.179.5,8443,SG,Digitalocean, LLC
 47.236.86.17,49257,SG,Alibaba us Technology Co., Ltd.
+8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
 158.178.236.14,61731,SG,Oracle Corporation
 43.134.181.60,38371,SG,Tencent
 138.2.75.219,39341,SG,Oracle Corporation
@@ -89,10 +92,8 @@
 138.2.69.236,23334,SG,Oracle Corporation
 150.109.24.233,6666,SG,Tencent
 143.42.66.91,443,SG,Akamai Technologies, Inc.
-15.235.199.103,8443,SG,OVH SAS
 146.235.19.79,28983,SG,Oracle Corporation
 150.109.94.144,8900,SG,Tencent
-15.235.199.103,2053,SG,OVH SAS
 152.69.221.114,23302,SG,Oracle Corporation
 152.69.220.136,53076,SG,Oracle Corporation
 164.52.2.100,443,SG,Cds Global Cloud Co., LTD

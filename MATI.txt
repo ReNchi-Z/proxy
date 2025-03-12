@@ -1,6 +1,5 @@
-35.219.50.99,443,ID,Google LLC
 103.180.161.123,587,SG,Hong Kong Megalayer Technology Co.,limited
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 43.156.97.73,57145,SG,Tencent
-8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
+15.235.199.103,8443,SG,OVH SAS
+15.235.199.103,2053,SG,OVH SAS
 45.87.103.154,57012,HK,Nearoute Limited
