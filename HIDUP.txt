@@ -92,8 +92,10 @@
 138.2.69.236,23334,SG,Oracle Corporation
 150.109.24.233,6666,SG,Tencent
 143.42.66.91,443,SG,Akamai Technologies, Inc.
+15.235.199.103,8443,SG,OVH SAS
 146.235.19.79,28983,SG,Oracle Corporation
 150.109.94.144,8900,SG,Tencent
+15.235.199.103,2053,SG,OVH SAS
 152.69.221.114,23302,SG,Oracle Corporation
 152.69.220.136,53076,SG,Oracle Corporation
 164.52.2.100,443,SG,Cds Global Cloud Co., LTD
