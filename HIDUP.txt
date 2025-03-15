@@ -41,7 +41,6 @@
 139.162.48.174,10000,SG,Akamai Technologies, Inc.
 146.190.111.165,443,SG,Digitalocean, LLC
 45.32.100.46,13802,SG,The Constant Company, LLC
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 45.76.183.217,49292,SG,The Constant Company, LLC
 43.245.198.240,587,SG,Techavenue International LTD
@@ -71,6 +70,7 @@
 158.178.236.14,61731,SG,Oracle Corporation
 43.134.181.60,38371,SG,Tencent
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
+101.32.247.126,725,SG,Tencent
 103.3.63.253,46683,SG,Akamai Technologies, Inc.
 128.199.171.100,2053,SG,Digitalocean, LLC
 138.2.75.219,39341,SG,Oracle Corporation
