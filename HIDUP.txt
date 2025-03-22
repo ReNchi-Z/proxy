@@ -1,3 +1,12 @@
+43.218.77.16,1443,ID,Amazon.com, Inc.
+203.194.112.119,8443,ID,Rumahweb
+172.232.239.151,587,ID,Akamai Technologies, Inc.
+203.194.112.119,2053,ID,Rumahweb
+8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
+43.218.77.16,443,ID,Amazon.com, Inc.
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+172.232.237.112,2053,ID,Akamai Technologies, Inc.
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 129.150.58.86,57621,SG,Oracle Corporation
 146.235.18.248,45137,SG,Oracle Corporation
@@ -46,7 +55,6 @@
 194.36.178.36,8443,SG,FIRST SERVER LIMITED
 8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
 167.253.158.63,8443,SG,LEASEWEB SINGAPORE PTE. LTD.
-8.219.59.132,48130,SG,Alibaba us Technology Co., Ltd.
 5.223.49.4,2053,SG,Hetzner Online GmbH
 68.183.179.5,2053,SG,Digitalocean, LLC
 163.47.9.27,2053,SG,Digitalocean, LLC
@@ -125,5 +133,6 @@
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
+13.250.131.37,443,SG,Amazon.com, Inc.
 154.91.84.10,8443,SG,Tcloudnet
 8.222.165.104,443,SG,Alibaba us Technology Co., Ltd.
