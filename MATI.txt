@@ -1,33 +1,4 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-172.232.239.151,587,ID,Akamai Technologies, Inc.
-203.194.112.119,8443,ID,Rumahweb
-8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
-43.218.77.16,443,ID,Amazon.com, Inc.
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
-213.35.108.135,12596,SG,Oracle Corporation
-138.2.89.238,43254,SG,Oracle Corporation
-168.138.166.213,10500,SG,Oracle Corporation
-178.128.80.43,443,SG,Digitalocean, LLC
-47.245.95.160,1443,SG,Alibaba us Technology Co., Ltd.
-194.127.193.240,50791,SG,LEASEWEB SINGAPORE PTE. LTD.
-47.236.173.166,587,SG,Alibaba us Technology Co., Ltd.
-47.236.246.163,14108,SG,Alibaba us Technology Co., Ltd.
-138.2.74.219,28616,SG,Oracle Corporation
-47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
-47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
-129.150.49.58,18650,SG,Oracle Corporation
-47.236.25.107,27903,SG,Alibaba us Technology Co., Ltd.
-139.162.33.248,587,SG,Akamai Technologies, Inc.
-129.150.36.188,53435,SG,Oracle Corporation
-15.235.162.49,443,SG,OVH SAS
-8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
-139.180.215.77,57878,SG,The Constant Company, LLC
-38.181.70.7,16240,SG,Eons Data Communications Limited
-192.53.113.156,587,SG,Akamai Technologies, Inc.
-168.138.184.172,443,SG,Oracle Corporation
-8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
+139.162.48.174,10000,SG,Akamai Technologies, Inc.
 140.245.34.185,59320,SG,Oracle Corporation
-64.49.14.41,2053,SG,Latitude.sh
+43.156.253.94,443,SG,Tencent
 45.87.103.154,57012,HK,Nearoute Limited
