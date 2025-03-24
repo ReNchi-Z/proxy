@@ -5,7 +5,6 @@
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-172.232.237.112,2053,ID,Akamai Technologies, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
@@ -46,7 +45,6 @@
 45.32.100.46,13802,SG,The Constant Company, LLC
 45.76.183.217,49292,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 43.245.198.240,587,SG,Techavenue International LTD
 8.219.59.208,11178,SG,Alibaba us Technology Co., Ltd.
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
@@ -112,6 +110,7 @@
 194.36.178.36,2053,SG,FIRST SERVER LIMITED
 185.81.29.113,8080,SG,AKILE LTD
 185.81.28.95,30503,SG,AKILE LTD
+194.36.179.5,2053,SG,FIRST SERVER LIMITED
 194.36.179.17,2053,SG,FIRST SERVER LIMITED
 194.36.179.17,8443,SG,FIRST SERVER LIMITED
 213.35.100.31,47112,SG,Oracle Corporation
