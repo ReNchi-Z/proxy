@@ -1,10 +1,10 @@
 203.194.112.119,8443,ID,Rumahweb
 43.218.77.16,1443,ID,Amazon.com, Inc.
-35.219.50.99,443,ID,Google LLC
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 203.194.112.119,2053,ID,Rumahweb
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 172.232.237.112,2053,ID,Akamai Technologies, Inc.
+35.219.15.90,443,ID,Google LLC
 43.218.77.16,443,ID,Amazon.com, Inc.
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 146.235.18.248,45137,SG,Oracle Corporation
@@ -45,7 +45,6 @@
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
 45.76.183.217,49292,SG,The Constant Company, LLC
-168.138.184.172,443,SG,Oracle Corporation
 138.2.95.61,1111,SG,Oracle Corporation
 45.129.228.31,8443,SG,Catixs LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
@@ -82,9 +81,6 @@
 129.150.50.21,44009,SG,Oracle Corporation
 129.150.41.174,16462,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 138.2.100.221,26621,SG,Oracle Corporation
 138.2.81.243,45319,SG,Oracle Corporation
@@ -126,7 +122,6 @@
 43.156.116.194,443,SG,Tencent
 43.128.95.84,38091,SG,Tencent
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
-38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
 45.76.156.96,2053,SG,The Constant Company, LLC
 43.156.181.203,443,SG,Tencent
 43.156.253.94,443,SG,Tencent
@@ -139,5 +134,6 @@
 8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
+13.250.131.37,443,SG,Amazon.com, Inc.
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 154.91.84.10,8443,SG,Tcloudnet
