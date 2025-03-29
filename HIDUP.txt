@@ -139,3 +139,4 @@
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
 154.91.84.10,8443,SG,Tcloudnet
+13.250.131.37,443,SG,Amazon.com, Inc.
