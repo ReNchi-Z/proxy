@@ -20,6 +20,7 @@
 194.127.193.240,50791,SG,LEASEWEB SINGAPORE PTE. LTD.
 138.2.74.219,28616,SG,Oracle Corporation
 129.150.49.58,18650,SG,Oracle Corporation
+139.162.33.248,587,SG,Akamai Technologies, Inc.
 15.235.162.49,443,SG,OVH SAS
 47.245.95.160,1443,SG,Alibaba us Technology Co., Ltd.
 47.236.173.166,587,SG,Alibaba us Technology Co., Ltd.
@@ -80,9 +81,6 @@
 129.150.41.174,16462,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
 8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 138.2.100.221,26621,SG,Oracle Corporation
 138.2.101.213,15204,SG,Oracle Corporation
@@ -98,6 +96,7 @@
 150.109.94.144,8900,SG,Tencent
 15.235.199.103,2053,SG,OVH SAS
 152.69.221.114,23302,SG,Oracle Corporation
+143.42.66.91,443,SG,Akamai Technologies, Inc.
 152.69.220.136,53076,SG,Oracle Corporation
 158.178.246.142,61731,SG,Oracle Corporation
 164.52.2.100,443,SG,Cds Global Cloud Co., LTD
