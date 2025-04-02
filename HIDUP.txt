@@ -78,6 +78,7 @@
 129.150.41.174,16462,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
 8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
+13.229.159.215,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 138.2.100.221,26621,SG,Oracle Corporation
 138.2.101.213,15204,SG,Oracle Corporation
