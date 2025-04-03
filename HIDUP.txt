@@ -1,4 +1,5 @@
 43.218.77.16,1443,ID,Amazon.com, Inc.
+203.194.112.119,8443,ID,Rumahweb
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 203.194.112.119,2053,ID,Rumahweb
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
@@ -133,6 +134,7 @@
 64.49.14.41,8443,SG,Latitude.sh
 8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
+13.250.131.37,443,SG,Amazon.com, Inc.
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 91.192.81.154,8443,SG,Melbikomas Uab
 8.222.165.104,443,SG,Alibaba us Technology Co., Ltd.
