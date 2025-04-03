@@ -6,7 +6,6 @@
 43.218.77.16,443,ID,Amazon.com, Inc.
 172.232.237.112,2053,ID,Akamai Technologies, Inc.
 35.219.15.90,443,ID,Google LLC
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 146.235.18.248,45137,SG,Oracle Corporation
 138.2.89.238,43254,SG,Oracle Corporation
