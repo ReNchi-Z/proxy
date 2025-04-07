@@ -1,5 +1,4 @@
 43.218.77.16,1443,ID,Amazon.com, Inc.
-203.194.112.119,8443,ID,Rumahweb
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 203.194.112.119,2053,ID,Rumahweb
 43.218.77.16,443,ID,Amazon.com, Inc.
@@ -91,7 +90,6 @@
 138.2.69.236,23334,SG,Oracle Corporation
 138.2.100.221,26621,SG,Oracle Corporation
 143.198.196.196,2053,SG,Digitalocean, LLC
-150.109.24.233,6666,SG,Tencent
 15.235.199.103,8443,SG,OVH SAS
 146.235.19.79,28983,SG,Oracle Corporation
 143.42.66.91,443,SG,Akamai Technologies, Inc.
