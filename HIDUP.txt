@@ -2,10 +2,10 @@
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-35.219.15.90,443,ID,Google LLC
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 203.194.112.119,2053,ID,Rumahweb
 203.194.112.119,8443,ID,Rumahweb
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 146.235.18.248,45137,SG,Oracle Corporation
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 129.150.58.86,57621,SG,Oracle Corporation
@@ -26,7 +26,6 @@
 129.150.49.58,18650,SG,Oracle Corporation
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
-15.235.162.49,443,SG,OVH SAS
 51.79.254.182,443,SG,OVH SAS
 129.150.36.188,53435,SG,Oracle Corporation
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
@@ -37,7 +36,6 @@
 213.35.107.73,443,SG,Oracle Corporation
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
 138.2.77.179,30018,SG,Oracle Corporation
-38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
 146.190.111.165,443,SG,Digitalocean, LLC
 45.32.100.46,13802,SG,The Constant Company, LLC
@@ -59,6 +57,7 @@
 91.192.81.154,2053,SG,Melbikomas Uab
 163.47.9.27,8443,SG,Digitalocean, LLC
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
+97.74.82.87,45837,SG,Godaddy.com, LLC
 138.2.91.98,9711,SG,Oracle Corporation
 47.236.86.17,49257,SG,Alibaba us Technology Co., Ltd.
 43.156.26.205,23654,SG,Tencent
