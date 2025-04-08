@@ -1,8 +1,6 @@
-8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 172.232.237.112,2053,ID,Akamai Technologies, Inc.
-194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 168.138.184.172,443,SG,Oracle Corporation
-13.228.142.218,443,SG,Amazon.com, Inc.
-164.52.2.99,443,SG,Cds Global Cloud Co., LTD
+97.74.82.87,45837,SG,Godaddy.com, LLC
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
