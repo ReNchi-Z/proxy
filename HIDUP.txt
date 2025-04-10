@@ -41,7 +41,7 @@
 146.190.111.165,443,SG,Digitalocean, LLC
 45.32.100.46,13802,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+168.138.184.172,443,SG,Oracle Corporation
 45.76.183.217,49292,SG,The Constant Company, LLC
 8.219.59.208,11178,SG,Alibaba us Technology Co., Ltd.
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
