@@ -1,3 +1,8 @@
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 35.219.15.90,443,ID,Google LLC
+15.235.162.49,443,SG,OVH SAS
+168.138.184.172,443,SG,Oracle Corporation
+140.245.34.185,59320,SG,Oracle Corporation
+13.250.131.37,443,SG,Amazon.com, Inc.
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
