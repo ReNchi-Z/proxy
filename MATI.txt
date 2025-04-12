@@ -1,7 +1,7 @@
-,,US,Cloudflare, Inc.
+203.194.112.119,8443,ID,Rumahweb
+203.194.112.119,2053,ID,Rumahweb
 158.180.65.145,443,KR,Oracle Corporation
-38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.184.172,443,SG,Oracle Corporation
-13.228.155.72,443,SG,Amazon.com, Inc.
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
