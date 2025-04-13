@@ -1,6 +1,4 @@
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
-158.180.65.145,443,KR,Oracle Corporation
-139.180.215.77,57878,SG,The Constant Company, LLC
 138.2.77.179,30018,SG,Oracle Corporation
+168.138.184.172,443,SG,Oracle Corporation
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
