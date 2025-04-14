@@ -2,7 +2,7 @@
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 43.218.77.16,443,ID,Amazon.com, Inc.
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+172.232.237.112,2053,ID,Akamai Technologies, Inc.
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 203.194.112.119,8443,ID,Rumahweb
 203.194.112.119,2053,ID,Rumahweb
@@ -38,9 +38,7 @@
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
 38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
-168.138.184.172,443,SG,Oracle Corporation
 192.53.113.156,587,SG,Akamai Technologies, Inc.
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 45.129.228.31,8443,SG,Catixs LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
