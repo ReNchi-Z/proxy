@@ -1,5 +1,6 @@
+172.232.237.112,2053,ID,Akamai Technologies, Inc.
+158.180.65.145,443,KR,Oracle Corporation
 138.2.77.179,30018,SG,Oracle Corporation
 146.190.111.165,443,SG,Digitalocean, LLC
-168.138.184.172,443,SG,Oracle Corporation
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
