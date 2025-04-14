@@ -40,6 +40,7 @@
 38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
 192.53.113.156,587,SG,Akamai Technologies, Inc.
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 45.129.228.31,8443,SG,Catixs LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
@@ -67,7 +68,6 @@
 158.178.236.14,61731,SG,Oracle Corporation
 138.2.75.219,39341,SG,Oracle Corporation
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 101.32.247.126,725,SG,Tencent
 45.76.183.217,49292,SG,The Constant Company, LLC
 103.3.63.253,46683,SG,Akamai Technologies, Inc.
