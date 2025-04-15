@@ -2,5 +2,6 @@
 146.190.111.165,443,SG,Digitalocean, LLC
 168.138.184.172,443,SG,Oracle Corporation
 8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
