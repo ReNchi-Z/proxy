@@ -41,6 +41,7 @@
 168.138.170.211,53702,SG,Oracle Corporation
 45.32.100.46,13802,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
+168.138.184.172,443,SG,Oracle Corporation
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 45.129.228.31,8443,SG,Catixs LTD
 51.79.158.58,8443,SG,OVH SAS
@@ -75,7 +76,6 @@
 129.150.50.21,44009,SG,Oracle Corporation
 129.150.41.174,16462,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
-13.229.159.215,443,SG,Amazon.com, Inc.
 13.228.142.218,443,SG,Amazon.com, Inc.
 13.228.155.72,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
