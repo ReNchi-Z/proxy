@@ -1,6 +1,2 @@
-167.71.194.185,8443,SG,Digitalocean, LLC
-47.236.173.166,587,SG,Alibaba us Technology Co., Ltd.
-168.138.184.172,443,SG,Oracle Corporation
-103.3.63.253,46683,SG,Akamai Technologies, Inc.
-202.91.32.252,15377,US,Psychz Networks
-103.79.79.128,45501,US,Psychz Networks
+,,US,Cloudflare, Inc.
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
