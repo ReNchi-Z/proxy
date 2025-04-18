@@ -1,6 +1,5 @@
 203.194.112.119,8443,ID,Rumahweb
-203.194.112.119,2053,ID,Rumahweb
-168.138.184.172,443,SG,Oracle Corporation
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 103.3.63.253,46683,SG,Akamai Technologies, Inc.
 202.91.32.252,15377,US,Psychz Networks
 103.79.79.128,45501,US,Psychz Networks
