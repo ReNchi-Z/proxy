@@ -28,7 +28,6 @@
 47.236.25.107,27903,SG,Alibaba us Technology Co., Ltd.
 129.150.36.188,53435,SG,Oracle Corporation
 51.79.254.182,443,SG,OVH SAS
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 139.180.215.77,57878,SG,The Constant Company, LLC
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
 213.35.107.73,443,SG,Oracle Corporation
@@ -41,7 +40,6 @@
 45.32.100.46,13802,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 45.76.183.217,49292,SG,The Constant Company, LLC
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 138.2.95.61,1111,SG,Oracle Corporation
 45.129.228.31,8443,SG,Catixs LTD
 51.79.158.58,8443,SG,OVH SAS
