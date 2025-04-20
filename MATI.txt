@@ -1,1 +1,2 @@
-13.250.131.37,443,SG,Amazon.com, Inc.
+168.138.184.172,443,SG,Oracle Corporation
+206.206.76.208,8443,SG,Regxa
