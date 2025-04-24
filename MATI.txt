@@ -1,1 +1,3 @@
-168.138.184.172,443,SG,Oracle Corporation
+203.194.112.119,8443,ID,Rumahweb
+203.194.112.119,2053,ID,Rumahweb
+62.72.46.14,8443,SG,Contabo Asia Private Limited
