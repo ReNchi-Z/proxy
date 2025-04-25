@@ -1,5 +1,2 @@
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
-194.36.179.17,2053,SG,FIRST SERVER LIMITED
-194.36.179.17,8443,SG,FIRST SERVER LIMITED
+,,US,Cloudflare, Inc.
+62.72.46.14,8443,SG,Contabo Asia Private Limited
