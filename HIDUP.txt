@@ -40,10 +40,10 @@
 8.222.129.175,58808,SG,Alibaba us Technology Co., Ltd.
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 45.76.183.217,49292,SG,The Constant Company, LLC
-168.138.184.172,443,SG,Oracle Corporation
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
 45.129.228.31,8443,SG,Catixs LTD
 51.79.158.58,8443,SG,OVH SAS
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 206.206.76.208,8443,SG,Regxa
 168.138.181.188,61731,SG,Oracle Corporation
 68.183.179.5,2053,SG,Digitalocean, LLC
