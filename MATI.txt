@@ -1,2 +1,1 @@
-13.229.159.215,443,SG,Amazon.com, Inc.
-154.91.84.10,8443,SG,Tcloudnet
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
