@@ -1,0 +1,2 @@
+13.229.159.215,443,SG,Amazon.com, Inc.
+154.91.84.10,8443,SG,Tcloudnet
