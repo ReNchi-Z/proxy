@@ -1,3 +1,1 @@
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
+62.72.46.14,8443,SG,Contabo Asia Private Limited
