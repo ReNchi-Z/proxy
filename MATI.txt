@@ -1,1 +1,4 @@
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
+,,US,Cloudflare, Inc.
+13.228.155.72,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
+13.229.159.215,443,SG,Amazon.com, Inc.
