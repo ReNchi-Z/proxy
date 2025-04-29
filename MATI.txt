@@ -1,2 +1,3 @@
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
+,,US,Cloudflare, Inc.
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
