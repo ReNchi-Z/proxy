@@ -30,7 +30,6 @@
 51.79.254.182,443,SG,OVH SAS
 139.180.215.77,57878,SG,The Constant Company, LLC
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 213.35.107.73,443,SG,Oracle Corporation
 8.222.129.175,58808,SG,Alibaba us Technology Co., Ltd.
 138.2.77.179,30018,SG,Oracle Corporation
@@ -44,6 +43,7 @@
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 45.129.228.31,8443,SG,Catixs LTD
 51.79.158.58,8443,SG,OVH SAS
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 194.36.178.36,8443,SG,FIRST SERVER LIMITED
 168.138.181.188,61731,SG,Oracle Corporation
 158.178.243.152,61731,SG,Oracle Corporation
@@ -74,7 +74,10 @@
 104.248.145.216,443,SG,Digitalocean, LLC
 129.150.41.174,16462,SG,Oracle Corporation
 13.250.14.76,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
 138.2.100.221,26621,SG,Oracle Corporation
+13.229.159.215,443,SG,Amazon.com, Inc.
+13.228.155.72,443,SG,Amazon.com, Inc.
 138.2.101.213,15204,SG,Oracle Corporation
 138.2.81.243,45319,SG,Oracle Corporation
 138.2.89.64,32962,SG,Oracle Corporation
@@ -95,6 +98,7 @@
 152.69.220.136,53076,SG,Oracle Corporation
 168.138.171.70,23280,SG,Oracle Corporation
 168.138.184.142,19191,SG,Oracle Corporation
+167.253.158.63,2053,SG,LEASEWEB SINGAPORE PTE. LTD.
 194.36.179.5,2053,SG,FIRST SERVER LIMITED
 185.81.28.95,30503,SG,AKILE LTD
 194.36.179.17,2053,SG,FIRST SERVER LIMITED
@@ -119,6 +123,6 @@
 91.192.81.154,8443,SG,Melbikomas Uab
 154.91.84.10,8443,SG,Tcloudnet
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
-8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
+13.250.131.37,443,SG,Amazon.com, Inc.
 5.34.176.119,81,SG,GREEN FLOID LLC
 185.81.29.113,8080,SG,AKILE LTD
