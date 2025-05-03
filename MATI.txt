@@ -1,1 +1,5 @@
-,,US,Cloudflare, Inc.
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+183.252.205.37,11101,CN,China Mobile
+158.180.65.145,443,KR,Oracle Corporation
+192.53.113.156,587,SG,Akamai Technologies, Inc.
+185.81.29.113,8080,SG,AKILE LTD
