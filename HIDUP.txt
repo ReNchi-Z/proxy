@@ -29,6 +29,7 @@
 129.150.36.188,53435,SG,Oracle Corporation
 51.79.254.182,443,SG,OVH SAS
 139.180.215.77,57878,SG,The Constant Company, LLC
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
 8.222.129.175,58808,SG,Alibaba us Technology Co., Ltd.
 138.2.77.179,30018,SG,Oracle Corporation
@@ -113,7 +114,7 @@
 43.156.116.194,443,SG,Tencent
 43.128.95.84,38091,SG,Tencent
 43.156.181.203,443,SG,Tencent
-45.76.156.96,2053,SG,The Constant Company, LLC
+45.32.100.46,13802,SG,The Constant Company, LLC
 47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,2053,SG,OVH SAS
 64.49.14.41,2053,SG,Latitude.sh

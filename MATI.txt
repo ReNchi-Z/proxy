@@ -1,3 +1,2 @@
 158.180.65.145,443,KR,Oracle Corporation
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-45.32.100.46,13802,SG,The Constant Company, LLC
+45.76.156.96,2053,SG,The Constant Company, LLC
