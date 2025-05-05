@@ -3,9 +3,9 @@
 203.194.112.119,2053,ID,Rumahweb
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
+172.232.237.112,2053,ID,Akamai Technologies, Inc.
 8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 129.150.58.86,57621,SG,Oracle Corporation
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 146.235.18.248,45137,SG,Oracle Corporation
