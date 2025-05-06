@@ -2,7 +2,7 @@
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-8.215.196.18,587,ID,Alibaba us Technology Co., Ltd.
+8.215.196.18,587,ID,Alibaba Cloud singapore Private Limited
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 203.194.112.119,8443,ID,Rumahweb
 203.194.112.119,2053,ID,Rumahweb
