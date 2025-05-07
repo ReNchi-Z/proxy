@@ -26,6 +26,7 @@
 51.79.254.182,443,SG,OVH SAS
 129.150.36.188,53435,SG,Oracle Corporation
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 139.180.215.77,57878,SG,The Constant Company, LLC
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
 213.35.107.73,443,SG,Oracle Corporation
