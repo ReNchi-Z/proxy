@@ -1,2 +1,3 @@
-172.232.237.112,2053,ID,Akamai Technologies, Inc.
 8.215.196.18,587,ID,Alibaba Cloud singapore Private Limited
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+150.109.24.233,6666,SG,Tencent
