@@ -1,2 +1,2 @@
 8.215.196.18,587,ID,Alibaba Cloud singapore Private Limited
-150.109.24.233,6666,SG,Tencent
+168.138.184.172,443,SG,Oracle Corporation
