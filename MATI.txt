@@ -1,3 +1,1 @@
-47.236.25.107,27903,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+,,US,Cloudflare, Inc.
