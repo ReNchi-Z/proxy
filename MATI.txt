@@ -1,1 +1,4 @@
-168.138.184.172,443,SG,Oracle Corporation
+178.128.80.43,443,SG,Digitalocean, LLC
+47.236.25.107,27903,SG,Alibaba us Technology Co., Ltd.
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+47.236.86.17,49257,SG,Alibaba us Technology Co., Ltd.
