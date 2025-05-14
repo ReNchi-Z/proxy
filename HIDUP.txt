@@ -44,7 +44,6 @@
 158.178.243.152,61731,SG,Oracle Corporation
 194.36.178.36,8443,SG,FIRST SERVER LIMITED
 8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
-68.183.179.5,2053,SG,Digitalocean, LLC
 163.47.9.27,2053,SG,Digitalocean, LLC
 91.192.81.154,2053,SG,Melbikomas Uab
 5.223.49.4,2053,SG,Hetzner Online GmbH
@@ -52,7 +51,6 @@
 163.47.9.27,8443,SG,Digitalocean, LLC
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 97.74.82.87,45837,SG,Godaddy.com, LLC
-68.183.179.5,8443,SG,Digitalocean, LLC
 43.245.198.240,587,SG,Techavenue International LTD
 143.198.196.196,8443,SG,Digitalocean, LLC
 158.178.236.14,61731,SG,Oracle Corporation
