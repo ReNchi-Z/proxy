@@ -1,1 +1,2 @@
+168.138.184.172,443,SG,Oracle Corporation
 45.129.228.31,8443,SG,Catixs LTD
