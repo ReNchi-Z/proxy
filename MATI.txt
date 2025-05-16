@@ -1,2 +1,2 @@
-172.232.237.112,2053,ID,Akamai Technologies, Inc.
-45.76.156.96,2053,SG,The Constant Company, LLC
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
+13.228.155.72,443,SG,Amazon.com, Inc.
