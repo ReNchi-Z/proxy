@@ -1,4 +1,4 @@
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+172.232.237.112,2053,ID,Akamai Technologies, Inc.
+38.181.70.7,16240,SG,Eons Data Communications Limited
 194.36.178.36,8443,SG,FIRST SERVER LIMITED
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
 45.76.156.96,2053,SG,The Constant Company, LLC
