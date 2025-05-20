@@ -1,2 +1,5 @@
+47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
+161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
+8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
 43.134.181.60,38371,SG,Tencent
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
+8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
