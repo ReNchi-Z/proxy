@@ -20,6 +20,8 @@
 139.162.33.248,587,SG,Akamai Technologies, Inc.
 129.150.49.58,18650,SG,Oracle Corporation
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
+47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
+161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
 51.79.254.182,443,SG,OVH SAS
 129.150.36.188,53435,SG,Oracle Corporation
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
@@ -52,6 +54,7 @@
 138.2.91.98,9711,SG,Oracle Corporation
 97.74.82.87,45837,SG,Godaddy.com, LLC
 143.198.196.196,8443,SG,Digitalocean, LLC
+8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
 158.178.236.14,61731,SG,Oracle Corporation
 138.2.75.219,39341,SG,Oracle Corporation
 101.32.247.126,725,SG,Tencent
@@ -105,6 +108,7 @@
 43.128.95.84,38091,SG,Tencent
 47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,2053,SG,OVH SAS
+8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
 64.49.14.41,2053,SG,Latitude.sh
 64.49.14.41,8443,SG,Latitude.sh
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
