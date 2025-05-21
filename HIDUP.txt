@@ -40,6 +40,7 @@
 51.79.158.58,8443,SG,OVH SAS
 8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
 206.206.76.208,8443,SG,Regxa
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
 168.138.181.188,61731,SG,Oracle Corporation
 43.245.198.240,587,SG,Techavenue International LTD
 158.178.243.152,61731,SG,Oracle Corporation
@@ -102,6 +103,7 @@
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
+43.156.116.194,443,SG,Tencent
 43.156.181.203,443,SG,Tencent
 43.128.95.84,38091,SG,Tencent
 47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
