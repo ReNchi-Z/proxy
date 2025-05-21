@@ -1,6 +1,2 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-43.134.181.60,38371,SG,Tencent
+168.138.184.172,443,SG,Oracle Corporation
 64.49.14.41,2053,SG,Latitude.sh
-83.142.30.4,2096,SG,Streamline Servers Pty LTD
