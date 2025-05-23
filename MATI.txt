@@ -1,3 +1,1 @@
-,,US,Cloudflare, Inc.
-144.24.78.162,443,KR,Oracle Corporation
 194.127.193.240,50791,SG,LEASEWEB SINGAPORE PTE. LTD.
