@@ -1,1 +1,4 @@
+43.218.77.16,1443,ID,Amazon.com, Inc.
+43.218.77.16,443,ID,Amazon.com, Inc.
 51.79.254.182,443,SG,OVH SAS
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
