@@ -1,3 +1,7 @@
+203.194.112.119,8443,ID,Rumahweb
+172.232.239.151,587,ID,Akamai Technologies, Inc.
+203.194.112.119,2053,ID,Rumahweb
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 54.169.229.188,443,SG,Amazon.com, Inc.
 129.150.58.86,57621,SG,Oracle Corporation
@@ -110,4 +114,3 @@
 8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
 154.91.84.10,8443,SG,Tcloudnet
 8.219.77.72,5027,SG,Alibaba us Technology Co., Ltd.
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
