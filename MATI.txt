@@ -1,3 +1,5 @@
 51.79.254.182,443,SG,OVH SAS
+38.181.70.7,16240,SG,Eons Data Communications Limited
 129.150.41.174,16462,SG,Oracle Corporation
 101.32.247.126,725,SG,Tencent
+43.156.116.194,443,SG,Tencent
