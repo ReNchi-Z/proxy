@@ -1,2 +1,1 @@
 51.79.254.182,443,SG,OVH SAS
-168.138.184.172,443,SG,Oracle Corporation
