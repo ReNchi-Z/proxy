@@ -1,1 +1,2 @@
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+51.79.254.182,443,SG,OVH SAS
+164.52.2.100,443,SG,Cds Global Cloud Co., LTD
