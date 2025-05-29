@@ -3,7 +3,7 @@
 203.194.112.119,2053,ID,Rumahweb
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 129.150.58.86,57621,SG,Oracle Corporation
 54.169.229.188,443,SG,Amazon.com, Inc.
@@ -35,7 +35,6 @@
 45.32.100.46,13802,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 45.76.183.217,49292,SG,The Constant Company, LLC
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
 8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
@@ -68,6 +67,7 @@
 13.250.14.76,443,SG,Amazon.com, Inc.
 143.198.196.196,2053,SG,Digitalocean, LLC
 138.2.100.221,26621,SG,Oracle Corporation
+150.109.24.233,6666,SG,Tencent
 138.2.90.127,55555,SG,Oracle Corporation
 138.2.101.213,15204,SG,Oracle Corporation
 138.2.81.243,45319,SG,Oracle Corporation
