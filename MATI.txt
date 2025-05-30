@@ -1,3 +1,3 @@
-,,US,Cloudflare, Inc.
-168.138.184.172,443,SG,Oracle Corporation
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
+51.79.254.182,443,SG,OVH SAS
