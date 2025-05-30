@@ -1,3 +1,5 @@
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 47.236.22.194,52324,SG,Alibaba us Technology Co., Ltd.
-51.79.254.182,443,SG,OVH SAS
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+168.138.184.172,443,SG,Oracle Corporation
+5.34.176.119,81,SG,GREEN FLOID LLC
+150.109.24.233,6666,SG,Tencent
