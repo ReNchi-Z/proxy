@@ -1,4 +1,1 @@
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-150.109.24.233,6666,SG,Tencent
-164.52.2.100,443,SG,Cds Global Cloud Co., LTD
-164.52.2.98,443,SG,Cds Global Cloud Co., LTD
+,,US,Cloudflare, Inc.
