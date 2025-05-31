@@ -1,4 +1,2 @@
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-51.79.254.182,443,SG,OVH SAS
-168.138.184.172,443,SG,Oracle Corporation
-43.156.116.194,443,SG,Tencent
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+164.52.2.98,443,SG,Cds Global Cloud Co., LTD
