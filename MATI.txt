@@ -1,1 +1,2 @@
-,,US,Cloudflare, Inc.
+164.52.2.100,443,SG,Cds Global Cloud Co., LTD
+164.52.2.98,443,SG,Cds Global Cloud Co., LTD
