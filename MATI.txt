@@ -1,1 +1,5 @@
-43.156.116.194,443,SG,Tencent
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+164.52.2.98,443,SG,Cds Global Cloud Co., LTD
+13.250.131.37,443,SG,Amazon.com, Inc.
