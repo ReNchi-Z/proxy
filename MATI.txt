@@ -1,2 +1,2 @@
-164.52.2.100,443,SG,Cds Global Cloud Co., LTD
-164.52.2.98,443,SG,Cds Global Cloud Co., LTD
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+62.72.46.14,8443,SG,Contabo Asia Private Limited
