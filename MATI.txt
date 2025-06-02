@@ -1,2 +1,4 @@
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 54.169.229.188,443,SG,Amazon.com, Inc.
-168.138.184.172,443,SG,Oracle Corporation
+43.156.116.194,443,SG,Tencent
