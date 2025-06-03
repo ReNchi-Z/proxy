@@ -1,2 +1,3 @@
-168.138.184.172,443,SG,Oracle Corporation
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+139.180.215.77,57878,SG,The Constant Company, LLC
+45.32.100.46,13802,SG,The Constant Company, LLC
