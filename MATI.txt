@@ -1,3 +1,1 @@
-,,US,Cloudflare, Inc.
-168.138.184.172,443,SG,Oracle Corporation
-13.228.142.218,443,SG,Amazon.com, Inc.
+51.79.254.182,443,SG,OVH SAS
