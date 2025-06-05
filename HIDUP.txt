@@ -25,7 +25,6 @@
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
 139.180.215.77,57878,SG,The Constant Company, LLC
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 213.35.107.73,443,SG,Oracle Corporation
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
 138.2.77.179,30018,SG,Oracle Corporation
