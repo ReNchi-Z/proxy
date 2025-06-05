@@ -1,7 +1,7 @@
 168.138.166.213,10500,SG,Oracle Corporation
-168.138.184.172,443,SG,Oracle Corporation
 163.47.9.27,2053,SG,Digitalocean, LLC
 163.47.9.27,8443,SG,Digitalocean, LLC
+97.74.82.87,45837,SG,Godaddy.com, LLC
 128.199.171.100,8443,SG,Digitalocean, LLC
 128.199.171.100,2053,SG,Digitalocean, LLC
 43.156.116.194,443,SG,Tencent
