@@ -1,3 +1,5 @@
-,,US,Cloudflare, Inc.
 144.24.78.162,443,KR,Oracle Corporation
-138.2.89.64,32962,SG,Oracle Corporation
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+104.248.145.216,443,SG,Digitalocean, LLC
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
+43.156.116.194,443,SG,Tencent

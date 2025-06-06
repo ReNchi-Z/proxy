@@ -1,3 +1,8 @@
+172.232.239.151,587,ID,Akamai Technologies, Inc.
+43.218.77.16,1443,ID,Amazon.com, Inc.
+43.218.77.16,443,ID,Amazon.com, Inc.
+203.194.112.119,8443,ID,Rumahweb
+203.194.112.119,2053,ID,Rumahweb
 129.150.58.86,57621,SG,Oracle Corporation
 146.235.18.248,45137,SG,Oracle Corporation
 213.35.108.135,12596,SG,Oracle Corporation
@@ -13,7 +18,6 @@
 194.127.193.240,50791,SG,LEASEWEB SINGAPORE PTE. LTD.
 139.180.215.77,57878,SG,The Constant Company, LLC
 8.222.243.73,26385,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 47.245.95.160,1443,SG,Alibaba us Technology Co., Ltd.
 213.35.107.73,443,SG,Oracle Corporation
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
@@ -45,10 +49,10 @@
 138.2.75.219,39341,SG,Oracle Corporation
 8.219.59.132,48130,SG,Alibaba us Technology Co., Ltd.
 129.150.50.21,44009,SG,Oracle Corporation
-104.248.145.216,443,SG,Digitalocean, LLC
 8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
 13.250.14.76,443,SG,Amazon.com, Inc.
+138.2.89.64,32962,SG,Oracle Corporation
 138.2.101.213,15204,SG,Oracle Corporation
 138.2.81.243,45319,SG,Oracle Corporation
 138.2.90.127,55555,SG,Oracle Corporation
@@ -71,7 +75,6 @@
 168.138.171.70,23280,SG,Oracle Corporation
 168.138.184.142,19191,SG,Oracle Corporation
 194.36.179.5,2053,SG,FIRST SERVER LIMITED
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
 185.81.29.113,8080,SG,AKILE LTD
 185.81.28.95,30503,SG,AKILE LTD
 194.36.179.17,2053,SG,FIRST SERVER LIMITED
@@ -86,7 +89,6 @@
 31.192.238.71,8443,SG,Chelyabinsk signal LLC
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
 43.156.181.203,443,SG,Tencent
-43.156.116.194,443,SG,Tencent
 43.128.95.84,38091,SG,Tencent
 51.79.158.58,2053,SG,OVH SAS
 64.49.14.41,2053,SG,Latitude.sh
