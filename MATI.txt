@@ -1,3 +1,7 @@
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-51.79.254.182,443,SG,OVH SAS
-150.109.94.144,8900,SG,Tencent
+168.138.166.213,10500,SG,Oracle Corporation
+139.180.215.77,57878,SG,The Constant Company, LLC
+163.47.9.27,2053,SG,Digitalocean, LLC
+163.47.9.27,8443,SG,Digitalocean, LLC
+128.199.171.100,8443,SG,Digitalocean, LLC
+128.199.171.100,2053,SG,Digitalocean, LLC
+43.156.116.194,443,SG,Tencent
