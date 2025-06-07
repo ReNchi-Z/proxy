@@ -41,7 +41,6 @@
 206.206.76.208,8443,SG,Regxa
 43.245.198.240,587,SG,Techavenue International LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
 5.223.49.4,2053,SG,Hetzner Online GmbH
 91.192.81.154,2053,SG,Melbikomas Uab
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
@@ -55,6 +54,7 @@
 129.150.50.21,44009,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
 13.228.155.72,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
 13.229.159.215,443,SG,Amazon.com, Inc.
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
 8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
@@ -95,6 +95,7 @@
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
 43.156.181.203,443,SG,Tencent
+43.128.95.84,38091,SG,Tencent
 51.79.158.58,2053,SG,OVH SAS
 5.34.176.119,81,SG,GREEN FLOID LLC
 64.49.14.41,2053,SG,Latitude.sh
