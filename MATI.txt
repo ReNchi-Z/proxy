@@ -1,3 +1,4 @@
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 163.47.9.27,2053,SG,Digitalocean, LLC
 163.47.9.27,8443,SG,Digitalocean, LLC
 128.199.171.100,2053,SG,Digitalocean, LLC
