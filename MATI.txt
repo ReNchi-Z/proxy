@@ -1,4 +1,2 @@
-,,US,Cloudflare, Inc.
 168.138.184.172,443,SG,Oracle Corporation
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-43.156.181.203,443,SG,Tencent
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
