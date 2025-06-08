@@ -26,6 +26,7 @@
 38.181.70.7,16240,SG,Eons Data Communications Limited
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
 168.138.170.211,53702,SG,Oracle Corporation
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 45.32.100.46,13802,SG,The Constant Company, LLC
 192.53.113.156,587,SG,Akamai Technologies, Inc.
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
@@ -41,6 +42,7 @@
 206.206.76.208,8443,SG,Regxa
 43.245.198.240,587,SG,Techavenue International LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
 5.223.49.4,2053,SG,Hetzner Online GmbH
 91.192.81.154,2053,SG,Melbikomas Uab
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
