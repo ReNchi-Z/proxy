@@ -1,12 +1,4 @@
 103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 51.79.254.182,443,SG,OVH SAS
-38.181.70.7,16240,SG,Eons Data Communications Limited
-168.138.170.211,53702,SG,Oracle Corporation
-51.79.158.58,8443,SG,OVH SAS
-8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
-8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
-138.2.81.243,45319,SG,Oracle Corporation
-213.35.100.31,47112,SG,Oracle Corporation
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
+150.109.94.144,8900,SG,Tencent
