@@ -1,4 +1,2 @@
 51.79.254.182,443,SG,OVH SAS
 62.72.46.14,8443,SG,Contabo Asia Private Limited
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-5.34.176.119,81,SG,GREEN FLOID LLC
