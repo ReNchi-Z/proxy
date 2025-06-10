@@ -1,4 +1,2 @@
-38.181.70.7,16240,SG,Eons Data Communications Limited
-192.53.113.156,587,SG,Akamai Technologies, Inc.
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
-185.81.29.113,8080,SG,AKILE LTD
+51.79.254.182,443,SG,OVH SAS
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
