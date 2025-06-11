@@ -1,4 +1,1 @@
-203.194.112.119,8443,ID,Rumahweb
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-104.248.145.216,443,SG,Digitalocean, LLC
+139.180.215.77,57878,SG,The Constant Company, LLC
