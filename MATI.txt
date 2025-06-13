@@ -1,4 +1,6 @@
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 62.72.46.14,8443,SG,Contabo Asia Private Limited
-168.138.184.172,443,SG,Oracle Corporation
+45.32.100.46,13802,SG,The Constant Company, LLC
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+13.229.159.215,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
 168.138.165.174,443,SG,Oracle Corporation
