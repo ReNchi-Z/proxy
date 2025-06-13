@@ -1,2 +1,1 @@
-45.32.100.46,13802,SG,The Constant Company, LLC
 168.138.165.174,443,SG,Oracle Corporation
