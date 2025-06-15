@@ -1,6 +1,4 @@
-54.169.229.188,443,SG,Amazon.com, Inc.
+,,US,Cloudflare, Inc.
+192.53.113.156,587,SG,Akamai Technologies, Inc.
 168.138.184.172,443,SG,Oracle Corporation
-43.245.198.240,587,SG,Techavenue International LTD
-13.228.142.218,443,SG,Amazon.com, Inc.
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
-168.138.165.174,443,SG,Oracle Corporation
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
