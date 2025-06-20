@@ -1,3 +1,0 @@
-138.2.74.219,28616,SG,Oracle Corporation
-38.181.70.7,16240,SG,Eons Data Communications Limited
-45.76.183.217,49292,SG,The Constant Company, LLC
