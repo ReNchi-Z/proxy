@@ -1,3 +1,3 @@
 138.2.74.219,28616,SG,Oracle Corporation
-168.138.184.172,443,SG,Oracle Corporation
-15.235.199.103,8443,UNKNOWN,
+192.53.113.156,587,SG,Akamai Technologies, Inc.
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
