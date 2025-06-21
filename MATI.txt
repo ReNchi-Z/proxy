@@ -1,2 +1,8 @@
+43.218.77.16,443,ID,Amazon.com, Inc.
+54.169.229.188,443,SG,Amazon.com, Inc.
 138.2.74.219,28616,SG,Oracle Corporation
+168.138.184.172,443,SG,Oracle Corporation
+13.228.155.72,443,SG,Amazon.com, Inc.
+13.229.159.215,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
 45.76.183.217,49292,SG,The Constant Company, LLC
