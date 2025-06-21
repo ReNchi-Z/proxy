@@ -1,2 +1,1 @@
-138.2.74.219,28616,SG,Oracle Corporation
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
