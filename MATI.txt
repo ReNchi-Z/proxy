@@ -1,4 +1,0 @@
-,,US,Cloudflare, Inc.
-54.169.229.188,443,SG,Amazon.com, Inc.
-138.2.74.219,28616,SG,Oracle Corporation
-168.138.184.172,443,SG,Oracle Corporation
