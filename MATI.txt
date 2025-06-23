@@ -1,4 +1,4 @@
 47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
-168.138.184.172,443,SG,Oracle Corporation
 8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-45.76.183.217,49292,SG,The Constant Company, LLC
+138.2.100.221,26621,SG,Oracle Corporation
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
