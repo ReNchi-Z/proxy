@@ -1,7 +1,14 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-43.218.77.16,443,ID,Amazon.com, Inc.
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
 45.32.100.46,13802,SG,The Constant Company, LLC
-54.169.229.188,443,SG,Amazon.com, Inc.
-138.2.100.221,26621,SG,Oracle Corporation
+138.2.91.98,9711,SG,Oracle Corporation
+97.74.82.87,45837,SG,Godaddy.com, LLC
+138.2.75.219,39341,SG,Oracle Corporation
+8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
+138.2.101.213,15204,SG,Oracle Corporation
+138.2.90.127,55555,SG,Oracle Corporation
+150.109.24.233,6666,SG,Tencent
+150.109.94.144,8900,SG,Tencent
+152.69.221.114,23302,SG,Oracle Corporation
+168.138.165.174,443,SG,Oracle Corporation
+168.138.184.142,19191,SG,Oracle Corporation
+213.35.125.129,6434,SG,Oracle Corporation
+8.222.178.214,6666,SG,Alibaba us Technology Co., Ltd.
