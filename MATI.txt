@@ -1,3 +1,7 @@
-139.180.215.77,57878,SG,The Constant Company, LLC
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
+43.218.77.16,1443,ID,Amazon.com, Inc.
+43.218.77.16,443,ID,Amazon.com, Inc.
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
+45.32.100.46,13802,SG,The Constant Company, LLC
+54.169.229.188,443,SG,Amazon.com, Inc.
+138.2.100.221,26621,SG,Oracle Corporation
