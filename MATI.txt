@@ -1,3 +1,3 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-43.218.77.16,443,ID,Amazon.com, Inc.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
+47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+138.2.100.221,26621,SG,Oracle Corporation
