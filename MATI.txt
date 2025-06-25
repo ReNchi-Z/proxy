@@ -1,16 +1,13 @@
 43.218.77.16,1443,ID,Amazon.com, Inc.
 172.232.239.151,587,ID,Akamai Technologies, Inc.
 43.218.77.16,443,ID,Amazon.com, Inc.
-47.236.181.185,8443,SG,Alibaba us Technology Co., Ltd.
-168.138.184.172,443,SG,Oracle Corporation
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-45.76.183.217,49292,SG,The Constant Company, LLC
+213.35.108.135,12596,SG,Oracle Corporation
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 138.2.91.98,9711,SG,Oracle Corporation
 97.74.82.87,45837,SG,Godaddy.com, LLC
 138.2.75.219,39341,SG,Oracle Corporation
 8.219.14.21,23943,SG,Alibaba us Technology Co., Ltd.
 138.2.101.213,15204,SG,Oracle Corporation
-138.2.100.221,26621,SG,Oracle Corporation
 138.2.90.127,55555,SG,Oracle Corporation
 150.109.24.233,6666,SG,Tencent
 150.109.94.144,8900,SG,Tencent
