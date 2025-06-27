@@ -1,3 +1,4 @@
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
-54.169.229.188,443,SG,Amazon.com, Inc.
+203.194.112.119,2053,ID,Rumahweb
+168.138.184.172,443,SG,Oracle Corporation
+45.76.183.217,49292,SG,The Constant Company, LLC
 152.69.220.136,53076,SG,Oracle Corporation
