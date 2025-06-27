@@ -1,7 +1,7 @@
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 54.169.229.188,443,SG,Amazon.com, Inc.
+192.53.113.156,587,SG,Akamai Technologies, Inc.
 206.206.76.208,8443,SG,Regxa
-45.76.183.217,49292,SG,The Constant Company, LLC
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
 152.69.220.136,53076,SG,Oracle Corporation
-164.52.2.100,443,SG,Cds Global Cloud Co., LTD
 206.206.76.208,2053,SG,Regxa
