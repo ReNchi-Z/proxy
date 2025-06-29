@@ -1,3 +1,8 @@
+43.218.77.16,1443,ID,Amazon.com, Inc.
+43.218.77.16,443,ID,Amazon.com, Inc.
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
+203.194.112.119,2053,ID,Rumahweb
+203.194.112.119,8443,ID,Rumahweb
 146.235.18.248,45137,SG,Oracle Corporation
 129.150.58.86,57621,SG,Oracle Corporation
 51.79.158.126,443,SG,OVH SAS
@@ -12,9 +17,9 @@
 8.222.243.73,26385,SG,Alibaba us Technology Co., Ltd.
 129.150.36.188,53435,SG,Oracle Corporation
 51.79.254.182,443,SG,OVH SAS
+139.180.215.77,57878,SG,The Constant Company, LLC
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 213.35.107.73,443,SG,Oracle Corporation
 138.2.77.179,30018,SG,Oracle Corporation
 38.181.70.7,16240,SG,Eons Data Communications Limited
@@ -22,9 +27,9 @@
 168.138.170.211,53702,SG,Oracle Corporation
 138.2.95.61,1111,SG,Oracle Corporation
 45.32.100.46,13802,SG,The Constant Company, LLC
-8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
 168.138.181.188,61731,SG,Oracle Corporation
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
 158.178.243.152,61731,SG,Oracle Corporation
 5.223.49.4,2053,SG,Hetzner Online GmbH
 91.192.81.154,2053,SG,Melbikomas Uab

@@ -1,5 +1,5 @@
-,,US,Cloudflare, Inc.
-139.180.215.77,57878,SG,The Constant Company, LLC
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
 168.138.184.172,443,SG,Oracle Corporation
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
 194.36.178.36,2053,SG,FIRST SERVER LIMITED
