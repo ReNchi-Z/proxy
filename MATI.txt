@@ -1,3 +1,4 @@
 8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
-168.138.184.172,443,SG,Oracle Corporation
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
+13.228.155.72,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
