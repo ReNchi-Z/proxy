@@ -38,11 +38,12 @@
 143.198.196.196,8443,SG,Digitalocean, LLC
 158.178.236.14,61731,SG,Oracle Corporation
 45.76.183.217,49292,SG,The Constant Company, LLC
-54.169.229.188,443,SG,Amazon.com, Inc.
 8.219.59.132,48130,SG,Alibaba us Technology Co., Ltd.
 8.219.58.164,57373,SG,Alibaba us Technology Co., Ltd.
 129.150.50.21,44009,SG,Oracle Corporation
 104.248.145.216,443,SG,Digitalocean, LLC
+13.228.155.72,443,SG,Amazon.com, Inc.
+13.228.142.218,443,SG,Amazon.com, Inc.
 13.229.159.215,443,SG,Amazon.com, Inc.
 13.250.14.76,443,SG,Amazon.com, Inc.
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
