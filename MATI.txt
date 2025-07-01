@@ -1,3 +1,4 @@
-45.32.100.46,13802,SG,The Constant Company, LLC
-8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
-45.76.183.217,49292,SG,The Constant Company, LLC
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+54.169.229.188,443,SG,Amazon.com, Inc.
+192.53.113.156,587,SG,Akamai Technologies, Inc.
+168.138.184.172,443,SG,Oracle Corporation
