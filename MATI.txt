@@ -1,2 +1,4 @@
-,,US,Cloudflare, Inc.
-168.138.184.172,443,SG,Oracle Corporation
+139.162.33.248,587,SG,Akamai Technologies, Inc.
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+192.53.113.156,587,SG,Akamai Technologies, Inc.
+54.169.229.188,443,SG,Amazon.com, Inc.
