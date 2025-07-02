@@ -1,3 +1,2 @@
-54.169.229.188,443,SG,Amazon.com, Inc.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
+8.219.237.57,31523,SG,Alibaba us Technology Co., Ltd.
 194.36.178.36,8443,SG,FIRST SERVER LIMITED
