@@ -1,1 +1,2 @@
-,,GB,Cloudflare, Inc.
+139.162.33.248,587,SG,Akamai Technologies, Inc.
+192.53.113.156,587,SG,Akamai Technologies, Inc.
