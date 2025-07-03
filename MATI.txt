@@ -1,3 +1,4 @@
-139.162.33.248,587,SG,Akamai Technologies, Inc.
-192.53.113.156,587,SG,Akamai Technologies, Inc.
-138.2.89.64,32962,SG,Oracle Corporation
+,,US,Cloudflare, Inc.
+54.169.229.188,443,SG,Amazon.com, Inc.
+168.138.184.172,443,SG,Oracle Corporation
+45.76.183.217,49292,SG,The Constant Company, LLC
