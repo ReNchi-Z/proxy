@@ -1,1 +1,4 @@
+54.169.229.188,443,SG,Amazon.com, Inc.
+139.180.215.77,57878,SG,The Constant Company, LLC
+62.72.46.14,8443,SG,Contabo Asia Private Limited
 138.2.89.64,32962,SG,Oracle Corporation
