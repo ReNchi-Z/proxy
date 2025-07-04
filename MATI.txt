@@ -1,2 +1,4 @@
-43.218.77.16,443,ID,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
+203.194.112.119,2053,ID,Rumahweb
+139.162.33.248,587,SG,Akamai Technologies, Inc.
+192.53.113.156,587,SG,Akamai Technologies, Inc.
+45.32.100.46,13802,SG,The Constant Company, LLC
