@@ -1,3 +1,2 @@
-168.138.184.172,443,SG,Oracle Corporation
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 168.138.165.174,443,SG,Oracle Corporation
+47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
