@@ -1,3 +1,2 @@
-38.181.70.7,16240,SG,Eons Data Communications Limited
-47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
+,,US,Cloudflare, Inc.
+168.138.184.172,443,SG,Oracle Corporation
