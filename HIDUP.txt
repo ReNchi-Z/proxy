@@ -25,6 +25,7 @@
 213.35.107.73,443,SG,Oracle Corporation
 138.2.95.61,1111,SG,Oracle Corporation
 138.2.77.179,30018,SG,Oracle Corporation
+38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
 45.32.100.46,13802,SG,The Constant Company, LLC
 168.138.184.172,443,SG,Oracle Corporation
