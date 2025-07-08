@@ -1,6 +1,2 @@
-54.169.229.188,443,SG,Amazon.com, Inc.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-45.32.100.46,13802,SG,The Constant Company, LLC
 168.138.184.172,443,SG,Oracle Corporation
 129.150.50.21,44009,SG,Oracle Corporation
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
