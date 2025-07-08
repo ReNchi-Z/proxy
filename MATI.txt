@@ -1,2 +1,0 @@
-,,FR,Cloudflare, Inc.
-168.138.165.174,443,SG,Oracle Corporation
