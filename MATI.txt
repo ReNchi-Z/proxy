@@ -1,5 +1,2 @@
-54.169.229.188,443,SG,Amazon.com, Inc.
-168.138.184.172,443,SG,Oracle Corporation
 139.180.215.77,57878,SG,The Constant Company, LLC
-129.150.50.21,44009,SG,Oracle Corporation
-185.81.28.95,30503,SG,AKILE LTD
+168.138.184.172,443,SG,Oracle Corporation
