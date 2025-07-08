@@ -1,2 +1,2 @@
-168.138.184.172,443,SG,Oracle Corporation
 129.150.50.21,44009,SG,Oracle Corporation
+45.76.183.217,49292,SG,The Constant Company, LLC

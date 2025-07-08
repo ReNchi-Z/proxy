@@ -28,6 +28,7 @@
 38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
 45.32.100.46,13802,SG,The Constant Company, LLC
+168.138.184.172,443,SG,Oracle Corporation
 51.79.158.58,8443,SG,OVH SAS
 168.138.181.188,61731,SG,Oracle Corporation
 158.178.243.152,61731,SG,Oracle Corporation
@@ -82,5 +83,4 @@
 91.192.81.154,8443,SG,Melbikomas Uab
 13.250.131.37,443,SG,Amazon.com, Inc.
 167.253.158.63,2053,SG,LEASEWEB SINGAPORE PTE. LTD.
-45.76.183.217,49292,SG,The Constant Company, LLC
 5.34.176.119,81,SG,GREEN FLOID LLC
