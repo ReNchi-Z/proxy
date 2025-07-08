@@ -1,3 +1,5 @@
-,,US,Cloudflare, Inc.
-38.181.70.7,16240,SG,Eons Data Communications Limited
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
+54.169.229.188,443,SG,Amazon.com, Inc.
+168.138.184.172,443,SG,Oracle Corporation
+139.180.215.77,57878,SG,The Constant Company, LLC
+129.150.50.21,44009,SG,Oracle Corporation
+185.81.28.95,30503,SG,AKILE LTD
