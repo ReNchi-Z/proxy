@@ -1,2 +1,2 @@
-139.180.215.77,57878,SG,The Constant Company, LLC
-168.138.184.172,443,SG,Oracle Corporation
+,,FR,Cloudflare, Inc.
+168.138.165.174,443,SG,Oracle Corporation
