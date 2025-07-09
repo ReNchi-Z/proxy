@@ -1,2 +1,2 @@
-168.138.184.172,443,SG,Oracle Corporation
-168.138.165.174,443,SG,Oracle Corporation
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+,,US,Cloudflare, Inc.
