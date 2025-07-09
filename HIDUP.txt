@@ -1,7 +1,6 @@
 43.218.77.16,1443,ID,Amazon.com, Inc.
 203.194.112.119,2053,ID,Rumahweb
 43.218.77.16,443,ID,Amazon.com, Inc.
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 51.79.158.126,443,SG,OVH SAS
 54.169.229.188,443,SG,Amazon.com, Inc.
 129.150.58.86,57621,SG,Oracle Corporation
@@ -20,7 +19,6 @@
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
-38.181.70.7,16240,SG,Eons Data Communications Limited
 213.35.107.73,443,SG,Oracle Corporation
 45.32.100.46,13802,SG,The Constant Company, LLC
 168.138.170.211,53702,SG,Oracle Corporation
