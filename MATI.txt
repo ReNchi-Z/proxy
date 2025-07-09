@@ -1,0 +1,4 @@
+,,US,Cloudflare, Inc.
+168.138.184.172,443,SG,Oracle Corporation
+129.150.50.21,44009,SG,Oracle Corporation
+13.229.159.215,443,SG,Amazon.com, Inc.
