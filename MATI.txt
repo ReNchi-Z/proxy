@@ -1,2 +1,2 @@
-,,US,Cloudflare, Inc.
-139.180.215.77,57878,SG,The Constant Company, LLC
+38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
+13.250.131.37,443,SG,Amazon.com, Inc.
