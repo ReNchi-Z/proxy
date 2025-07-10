@@ -1,6 +1,7 @@
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 62.72.46.14,8443,SG,Contabo Asia Private Limited
-168.138.184.172,443,SG,Oracle Corporation
+45.32.100.46,13802,SG,The Constant Company, LLC
+91.192.81.154,2053,SG,Melbikomas Uab
 8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
-13.250.131.37,443,SG,Amazon.com, Inc.
+91.192.81.154,8443,SG,Melbikomas Uab
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
