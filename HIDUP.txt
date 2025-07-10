@@ -26,7 +26,6 @@
 168.138.170.211,53702,SG,Oracle Corporation
 138.2.77.179,30018,SG,Oracle Corporation
 138.2.95.61,1111,SG,Oracle Corporation
-168.138.184.172,443,SG,Oracle Corporation
 51.79.158.58,8443,SG,OVH SAS
 168.138.181.188,61731,SG,Oracle Corporation
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
@@ -37,8 +36,6 @@
 8.219.59.132,48130,SG,Alibaba us Technology Co., Ltd.
 91.192.81.154,2053,SG,Melbikomas Uab
 143.198.196.196,8443,SG,Digitalocean, LLC
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-45.76.183.217,49292,SG,The Constant Company, LLC
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
 104.248.145.216,443,SG,Digitalocean, LLC
 13.250.14.76,443,SG,Amazon.com, Inc.
@@ -75,5 +72,6 @@
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
 43.156.116.194,443,SG,Tencent
+13.250.131.37,443,SG,Amazon.com, Inc.
 5.34.176.119,81,SG,GREEN FLOID LLC
 194.36.178.36,2053,SG,FIRST SERVER LIMITED
