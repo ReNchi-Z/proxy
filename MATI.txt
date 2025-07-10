@@ -1,7 +1,2 @@
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-45.32.100.46,13802,SG,The Constant Company, LLC
-91.192.81.154,2053,SG,Melbikomas Uab
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
-91.192.81.154,8443,SG,Melbikomas Uab
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
+,,US,Cloudflare, Inc.
+139.180.215.77,57878,SG,The Constant Company, LLC
