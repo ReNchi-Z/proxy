@@ -35,6 +35,7 @@
 8.219.59.132,48130,SG,Alibaba us Technology Co., Ltd.
 91.192.81.154,2053,SG,Melbikomas Uab
 143.198.196.196,8443,SG,Digitalocean, LLC
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 45.76.183.217,49292,SG,The Constant Company, LLC
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
 104.248.145.216,443,SG,Digitalocean, LLC
@@ -74,4 +75,3 @@
 43.156.116.194,443,SG,Tencent
 13.250.131.37,443,SG,Amazon.com, Inc.
 5.34.176.119,81,SG,GREEN FLOID LLC
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
