@@ -1,4 +1,4 @@
 168.138.184.172,443,SG,Oracle Corporation
+164.52.2.100,443,SG,Cds Global Cloud Co., LTD
 38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
-43.156.116.194,443,SG,Tencent
 13.250.131.37,443,SG,Amazon.com, Inc.

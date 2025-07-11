@@ -1,7 +1,3 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-203.194.112.119,2053,ID,Rumahweb
-43.218.77.16,443,ID,Amazon.com, Inc.
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 51.79.158.126,443,SG,OVH SAS
 54.169.229.188,443,SG,Amazon.com, Inc.
 129.150.58.86,57621,SG,Oracle Corporation
@@ -51,7 +47,6 @@
 146.235.19.79,28983,SG,Oracle Corporation
 143.42.66.91,443,SG,Akamai Technologies, Inc.
 15.235.199.103,2053,SG,OVH SAS
-164.52.2.100,443,SG,Cds Global Cloud Co., LTD
 158.178.246.142,61731,SG,Oracle Corporation
 164.52.2.99,443,SG,Cds Global Cloud Co., LTD
 164.52.2.98,443,SG,Cds Global Cloud Co., LTD
@@ -73,5 +68,6 @@
 64.49.14.41,8443,SG,Latitude.sh
 83.142.30.4,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,8443,SG,Melbikomas Uab
+43.156.116.194,443,SG,Tencent
 5.34.176.119,81,SG,GREEN FLOID LLC
 194.36.178.36,2053,SG,FIRST SERVER LIMITED
