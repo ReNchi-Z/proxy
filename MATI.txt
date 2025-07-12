@@ -1,1 +1,4 @@
-,,US,Cloudflare, Inc.
+168.138.184.172,443,SG,Oracle Corporation
+38.54.16.95,2053,SG,Kaopu Cloud Hk Limited
+43.128.95.84,38091,SG,Tencent
+47.245.91.197,9000,SG,Alibaba us Technology Co., Ltd.
