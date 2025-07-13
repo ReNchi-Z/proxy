@@ -18,10 +18,10 @@
 129.150.36.188,53435,SG,Oracle Corporation
 51.79.254.182,443,SG,OVH SAS
 8.222.243.73,26385,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
 213.35.107.73,443,SG,Oracle Corporation
 138.2.77.179,30018,SG,Oracle Corporation
 168.138.170.211,53702,SG,Oracle Corporation
+38.181.70.7,16240,SG,Eons Data Communications Limited
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
@@ -31,6 +31,7 @@
 51.79.158.58,8443,SG,OVH SAS
 168.138.181.188,61731,SG,Oracle Corporation
 158.178.243.152,61731,SG,Oracle Corporation
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 5.223.49.4,2053,SG,Hetzner Online GmbH
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
@@ -59,7 +60,7 @@
 164.52.2.98,443,SG,Cds Global Cloud Co., LTD
 168.138.171.70,23280,SG,Oracle Corporation
 168.138.165.174,443,SG,Oracle Corporation
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
 185.81.28.95,30503,SG,AKILE LTD
 194.36.179.5,2053,SG,FIRST SERVER LIMITED
 194.36.179.17,2053,SG,FIRST SERVER LIMITED
