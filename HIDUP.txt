@@ -20,6 +20,7 @@
 62.72.46.14,8443,SG,Contabo Asia Private Limited
 161.117.249.114,2025,SG,Alibaba us Technology Co., Ltd.
 194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE. LTD.
+139.180.215.77,57878,SG,The Constant Company, LLC
 178.128.80.43,443,SG,Digitalocean, LLC
 47.236.119.190,51342,SG,Alibaba us Technology Co., Ltd.
 213.35.107.73,443,SG,Oracle Corporation
@@ -31,6 +32,7 @@
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 158.178.243.152,61731,SG,Oracle Corporation
 168.138.181.188,61731,SG,Oracle Corporation
+194.36.178.36,8443,SG,FIRST SERVER LIMITED
 5.223.49.4,2053,SG,Hetzner Online GmbH
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,2053,SG,Melbikomas Uab
@@ -50,6 +52,7 @@
 143.42.66.91,443,SG,Akamai Technologies, Inc.
 15.235.199.103,2053,SG,OVH SAS
 167.253.158.63,8443,SG,LEASEWEB SINGAPORE PTE. LTD.
+45.32.100.46,13802,SG,The Constant Company, LLC
 158.178.246.142,61731,SG,Oracle Corporation
 164.52.2.99,443,SG,Cds Global Cloud Co., LTD
 164.52.2.100,443,SG,Cds Global Cloud Co., LTD
@@ -68,6 +71,7 @@
 31.192.238.71,2053,SG,Chelyabinsk signal LLC
 43.156.181.203,443,SG,Tencent
 167.253.158.63,2053,SG,LEASEWEB SINGAPORE PTE. LTD.
+45.76.183.217,49292,SG,The Constant Company, LLC
 51.79.158.58,2053,SG,OVH SAS
 43.156.116.194,443,SG,Tencent
 64.49.14.41,2053,SG,Latitude.sh
