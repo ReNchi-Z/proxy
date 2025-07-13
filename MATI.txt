@@ -1,0 +1,5 @@
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+38.181.70.7,16240,SG,Eons Data Communications Limited
+168.138.184.172,443,SG,Oracle Corporation
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+45.76.183.217,49292,SG,The Constant Company, LLC
