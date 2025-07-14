@@ -28,8 +28,6 @@
 138.2.95.61,1111,SG,Oracle Corporation
 38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
-168.138.184.172,443,SG,Oracle Corporation
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 158.178.243.152,61731,SG,Oracle Corporation
@@ -45,9 +43,7 @@
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
 104.248.145.216,443,SG,Digitalocean, LLC
 13.250.14.76,443,SG,Amazon.com, Inc.
-138.2.89.64,32962,SG,Oracle Corporation
 138.2.81.243,45319,SG,Oracle Corporation
-138.2.69.236,23334,SG,Oracle Corporation
 143.198.196.196,2053,SG,Digitalocean, LLC
 146.235.19.79,28983,SG,Oracle Corporation
 15.235.199.103,8443,SG,OVH SAS
@@ -61,7 +57,6 @@
 168.138.171.70,23280,SG,Oracle Corporation
 168.138.165.174,443,SG,Oracle Corporation
 164.52.2.98,443,SG,Cds Global Cloud Co., LTD
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
 185.81.28.95,30503,SG,AKILE LTD
 194.36.179.5,2053,SG,FIRST SERVER LIMITED
 194.36.179.17,2053,SG,FIRST SERVER LIMITED
