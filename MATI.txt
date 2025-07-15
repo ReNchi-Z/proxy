@@ -1,2 +1,1 @@
-144.24.78.162,443,KR,Oracle Corporation
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
+62.72.46.14,8443,SG,Contabo Asia Private Limited
