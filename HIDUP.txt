@@ -28,6 +28,7 @@
 38.181.70.7,16240,SG,Eons Data Communications Limited
 168.138.170.211,53702,SG,Oracle Corporation
 168.138.184.172,443,SG,Oracle Corporation
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 51.79.158.58,8443,SG,OVH SAS
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
 158.178.243.152,61731,SG,Oracle Corporation
