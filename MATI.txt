@@ -1,2 +1,2 @@
 ,,US,Cloudflare, Inc.
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+38.181.70.7,16240,SG,Eons Data Communications Limited
