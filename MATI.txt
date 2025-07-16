@@ -1,0 +1,5 @@
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+62.72.46.14,8443,SG,Contabo Asia Private Limited
+168.138.184.172,443,SG,Oracle Corporation
+143.42.66.91,443,SG,Akamai Technologies, Inc.
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
