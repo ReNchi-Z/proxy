@@ -1,2 +1,4 @@
 ,,US,Cloudflare, Inc.
-38.181.70.7,16240,SG,Eons Data Communications Limited
+178.128.80.43,443,SG,Digitalocean, LLC
+129.150.36.188,53435,SG,Oracle Corporation
+43.156.116.194,443,SG,Tencent
