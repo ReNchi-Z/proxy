@@ -31,7 +31,6 @@
 168.138.181.188,61731,SG,Oracle Corporation
 51.79.158.58,8443,SG,OVH SAS
 5.223.49.4,2053,SG,Hetzner Online GmbH
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 83.142.30.5,2096,SG,Streamline Servers Pty LTD
 91.192.81.154,2053,SG,Melbikomas Uab
 8.222.220.81,25435,SG,Alibaba us Technology Co., Ltd.
