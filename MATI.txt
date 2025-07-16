@@ -1,4 +1,1 @@
-,,US,Cloudflare, Inc.
-178.128.80.43,443,SG,Digitalocean, LLC
-129.150.36.188,53435,SG,Oracle Corporation
-43.156.116.194,443,SG,Tencent
+138.2.89.64,32962,SG,Oracle Corporation
