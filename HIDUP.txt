@@ -1,8 +1,3 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-203.194.112.119,2053,ID,Rumahweb
-43.218.77.16,443,ID,Amazon.com, Inc.
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 129.150.58.86,57621,SG,Oracle Corporation
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 54.169.229.188,443,SG,Amazon.com, Inc.
@@ -37,6 +32,7 @@
 91.192.81.154,2053,SG,Melbikomas Uab
 158.178.236.14,61731,SG,Oracle Corporation
 143.198.196.196,8443,SG,Digitalocean, LLC
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
 8.219.59.132,48964,SG,Alibaba us Technology Co., Ltd.
 104.248.145.216,443,SG,Digitalocean, LLC
 13.228.155.72,443,SG,Amazon.com, Inc.
