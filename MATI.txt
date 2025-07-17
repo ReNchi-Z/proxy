@@ -1,5 +1,0 @@
-144.24.78.162,443,KR,Oracle Corporation
-8.222.243.73,26385,SG,Alibaba us Technology Co., Ltd.
-62.72.46.14,8443,SG,Contabo Asia Private Limited
-45.32.100.46,13802,SG,The Constant Company, LLC
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
