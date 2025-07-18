@@ -2,7 +2,6 @@
 203.194.112.119,8443,ID,Rumahweb
 203.194.112.119,2053,ID,Rumahweb
 43.218.77.16,443,ID,Amazon.com, Inc.
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
 36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 129.150.58.86,57621,SG,Oracle Corporation
@@ -76,4 +75,3 @@
 91.192.81.154,8443,SG,Melbikomas Uab
 13.250.131.37,443,SG,Amazon.com, Inc.
 5.34.176.119,81,SG,GREEN FLOID LLC
-194.36.178.36,2053,SG,FIRST SERVER LIMITED
