@@ -1,4 +1,1 @@
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
-138.2.89.64,32962,SG,Oracle Corporation
+103.6.207.108,8080,ID,Pt Pusat Media Indonesia
