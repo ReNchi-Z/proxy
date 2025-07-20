@@ -1,5 +1,2 @@
-38.181.70.7,16240,SG,Eons Data Communications Limited
-8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
-13.228.155.72,443,SG,Amazon.com, Inc.
-13.229.159.215,443,SG,Amazon.com, Inc.
-13.228.142.218,443,SG,Amazon.com, Inc.
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
+45.76.183.217,49292,SG,The Constant Company, LLC
