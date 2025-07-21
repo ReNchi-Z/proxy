@@ -1,2 +1,1 @@
-,,US,Cloudflare, Inc.
-131.186.33.175,443,JP,Oracle Corporation
+36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
