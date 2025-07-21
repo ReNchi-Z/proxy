@@ -1,1 +1,1 @@
-194.36.178.36,8443,SG,FIRST SERVER LIMITED
+8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
