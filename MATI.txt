@@ -1,1 +1,1 @@
-62.72.46.14,8443,SG,Contabo Asia Private Limited
+131.186.33.175,443,JP,Oracle Corporation
