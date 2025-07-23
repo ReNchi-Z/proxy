@@ -1,1 +1,2 @@
 8.219.1.169,443,SG,Alibaba us Technology Co., Ltd.
+13.250.131.37,443,SG,Amazon.com, Inc.
