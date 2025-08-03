@@ -1,7 +1,4 @@
-43.218.77.16,1443,ID,Amazon.com, Inc.
-43.218.77.16,443,ID,Amazon.com, Inc.
-36.95.152.58,12137,ID,PT. Telekomunikasi Indonesia
-103.6.207.108,8080,ID,Pt Pusat Media Indonesia
+,,US,Cloudflare, Inc.
 47.74.254.191,8900,SG,Alibaba us Technology Co., Ltd.
 146.235.18.248,45137,SG,Oracle Corporation
 138.2.89.238,43254,SG,Oracle Corporation
